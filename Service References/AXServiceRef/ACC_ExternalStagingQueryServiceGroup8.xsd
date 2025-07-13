@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns:ek="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKey" xmlns:tns="http://schemas.microsoft.com/dynamics/2011/02/documents/EntityKeyPage" xmlns:dp="http://schemas.microsoft.com/dynamics/2011/02/documents/DocumentPaging" xmlns:ekl="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList" elementFormDefault="qualified" targetNamespace="http://schemas.microsoft.com/dynamics/2011/02/documents/EntityKeyPage" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:import schemaLocation="http://irv-sapl-axsbx:8101/DynamicsAx/Services/ACC_ExternalStagingQueryServiceGroup?xsd=xsd5" namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList" />
+  <xsd:import schemaLocation="http://irv-sapl-axsbx:8101/DynamicsAx/Services/ACC_ExternalStagingQueryServiceGroup?xsd=xsd4" namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/DocumentPaging" />
+  <xsd:element name="EntityKeyPage" type="tns:EntityKeyPage" />
+  <xsd:complexType name="EntityKeyPage">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" ref="ekl:EntityKeyList" />
+      <xsd:element minOccurs="0" ref="dp:DocumentPaging" />
+      <xsd:element name="PageStatus" type="tns:EntityKeyPageStatus" />
+      <xsd:element name="PageStatusDetails" type="tns:EntityKeyPageStatusDetails" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:simpleType name="EntityKeyPageStatus">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="Success" />
+      <xsd:enumeration value="Failure" />
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:simpleType name="EntityKeyPageStatusDetails">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="None" />
+      <xsd:enumeration value="DocumentFiltersChanged" />
+      <xsd:enumeration value="ChangeTrackingDisabled" />
+      <xsd:enumeration value="ChangedDateTimeOutOfRange" />
+    </xsd:restriction>
+  </xsd:simpleType>
+</xsd:schema>

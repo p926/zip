@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:i0="http://schemas.microsoft.com/dynamics/2008/01/services" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="ACC_ExternalStagingQueryServiceGroup" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsp:Policy wsu:Id="NetTcpBinding_Acc_ExternalStagingQueryService_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <msb:BinaryEncoding xmlns:msb="http://schemas.microsoft.com/ws/06/2004/mspolicy/netbinary1" />
+        <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:TransportToken>
+              <wsp:Policy>
+                <msf:WindowsTransportSecurity xmlns:msf="http://schemas.microsoft.com/ws/2006/05/framing/policy">
+                  <msf:ProtectionLevel>EncryptAndSign</msf:ProtectionLevel>
+                </msf:WindowsTransportSecurity>
+              </wsp:Policy>
+            </sp:TransportToken>
+            <sp:AlgorithmSuite>
+              <wsp:Policy>
+                <sp:Basic256 />
+              </wsp:Policy>
+            </sp:AlgorithmSuite>
+            <sp:Layout>
+              <wsp:Policy>
+                <sp:Strict />
+              </wsp:Policy>
+            </sp:Layout>
+          </wsp:Policy>
+        </sp:TransportBinding>
+        <wsaw:UsingAddressing />
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsdl:import namespace="http://schemas.microsoft.com/dynamics/2008/01/services" location="http://irv-sapl-axsbx:8101/DynamicsAx/Services/ACC_ExternalStagingQueryServiceGroup?wsdl=wsdl0" />
+  <wsdl:types />
+  <wsdl:binding name="NetTcpBinding_Acc_ExternalStagingQueryService" type="i0:Acc_ExternalStagingQueryService">
+    <wsp:PolicyReference URI="#NetTcpBinding_Acc_ExternalStagingQueryService_policy" />
+    <soap12:binding transport="http://schemas.microsoft.com/soap/tcp" />
+    <wsdl:operation name="find">
+      <soap12:operation soapAction="http://schemas.microsoft.com/dynamics/2008/01/services/Acc_ExternalStagingQueryService/find" style="document" />
+      <wsdl:input name="Acc_ExternalStagingQueryServiceFindRequest">
+        <soap12:header message="i0:Acc_ExternalStagingQueryServiceFindRequest_Headers" part="context" use="literal" />
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="Acc_ExternalStagingQueryServiceFindResponse">
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="AifFaultFault">
+        <soap12:fault use="literal" name="AifFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="update">
+      <soap12:operation soapAction="http://schemas.microsoft.com/dynamics/2008/01/services/Acc_ExternalStagingQueryService/update" style="document" />
+      <wsdl:input name="Acc_ExternalStagingQueryServiceUpdateRequest">
+        <soap12:header message="i0:Acc_ExternalStagingQueryServiceUpdateRequest_Headers" part="context" use="literal" />
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="Acc_ExternalStagingQueryServiceUpdateResponse">
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="AifFaultFault">
+        <soap12:fault use="literal" name="AifFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="findKeys">
+      <soap12:operation soapAction="http://schemas.microsoft.com/dynamics/2008/01/services/Acc_ExternalStagingQueryService/findKeys" style="document" />
+      <wsdl:input name="Acc_ExternalStagingQueryServiceFindKeysRequest">
+        <soap12:header message="i0:Acc_ExternalStagingQueryServiceFindKeysRequest_Headers" part="context" use="literal" />
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="Acc_ExternalStagingQueryServiceFindKeysResponse">
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="AifFaultFault">
+        <soap12:fault use="literal" name="AifFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="delete">
+      <soap12:operation soapAction="http://schemas.microsoft.com/dynamics/2008/01/services/Acc_ExternalStagingQueryService/delete" style="document" />
+      <wsdl:input name="Acc_ExternalStagingQueryServiceDeleteRequest">
+        <soap12:header message="i0:Acc_ExternalStagingQueryServiceDeleteRequest_Headers" part="context" use="literal" />
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="Acc_ExternalStagingQueryServiceDeleteResponse">
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="AifFaultFault">
+        <soap12:fault use="literal" name="AifFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getChangedKeys">
+      <soap12:operation soapAction="http://schemas.microsoft.com/dynamics/2008/01/services/Acc_ExternalStagingQueryService/getChangedKeys" style="document" />
+      <wsdl:input name="Acc_ExternalStagingQueryServiceGetChangedKeysRequest">
+        <soap12:header message="i0:Acc_ExternalStagingQueryServiceGetChangedKeysRequest_Headers" part="context" use="literal" />
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="Acc_ExternalStagingQueryServiceGetChangedKeysResponse">
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="AifFaultFault">
+        <soap12:fault use="literal" name="AifFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getKeys">
+      <soap12:operation soapAction="http://schemas.microsoft.com/dynamics/2008/01/services/Acc_ExternalStagingQueryService/getKeys" style="document" />
+      <wsdl:input name="Acc_ExternalStagingQueryServiceGetKeysRequest">
+        <soap12:header message="i0:Acc_ExternalStagingQueryServiceGetKeysRequest_Headers" part="context" use="literal" />
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="Acc_ExternalStagingQueryServiceGetKeysResponse">
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="AifFaultFault">
+        <soap12:fault use="literal" name="AifFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="read">
+      <soap12:operation soapAction="http://schemas.microsoft.com/dynamics/2008/01/services/Acc_ExternalStagingQueryService/read" style="document" />
+      <wsdl:input name="Acc_ExternalStagingQueryServiceReadRequest">
+        <soap12:header message="i0:Acc_ExternalStagingQueryServiceReadRequest_Headers" part="context" use="literal" />
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="Acc_ExternalStagingQueryServiceReadResponse">
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="AifFaultFault">
+        <soap12:fault use="literal" name="AifFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="create">
+      <soap12:operation soapAction="http://schemas.microsoft.com/dynamics/2008/01/services/Acc_ExternalStagingQueryService/create" style="document" />
+      <wsdl:input name="Acc_ExternalStagingQueryServiceCreateRequest">
+        <soap12:header message="i0:Acc_ExternalStagingQueryServiceCreateRequest_Headers" part="context" use="literal" />
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="Acc_ExternalStagingQueryServiceCreateResponse">
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="AifFaultFault">
+        <soap12:fault use="literal" name="AifFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ACC_ExternalStagingQueryServiceGroup">
+    <wsdl:port name="NetTcpBinding_Acc_ExternalStagingQueryService" binding="tns:NetTcpBinding_Acc_ExternalStagingQueryService">
+      <soap12:address location="net.tcp://irv-sapl-axsbx:8201/DynamicsAx/Services/ACC_ExternalStagingQueryServiceGroup" />
+      <wsa10:EndpointReference>
+        <wsa10:Address>net.tcp://irv-sapl-axsbx:8201/DynamicsAx/Services/ACC_ExternalStagingQueryServiceGroup</wsa10:Address>
+        <Identity xmlns="http://schemas.xmlsoap.org/ws/2006/02/addressingidentity">
+          <Upn>irv-svc_axaos_np@mirion.local</Upn>
+        </Identity>
+      </wsa10:EndpointReference>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

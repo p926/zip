@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://schemas.microsoft.com/dynamics/2008/01/services" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://schemas.microsoft.com/dynamics/2008/01/services" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://schemas.microsoft.com/dynamics/2008/01/services/Imports">
+      <xsd:import schemaLocation="http://irv-sapl-axsbx:8101/DynamicsAx/Services/ACC_ExternalStagingQueryServiceGroup?xsd=xsd11" namespace="http://schemas.microsoft.com/dynamics/2008/01/services" />
+      <xsd:import schemaLocation="http://irv-sapl-axsbx:8101/DynamicsAx/Services/ACC_ExternalStagingQueryServiceGroup?xsd=xsd12" namespace="http://schemas.microsoft.com/dynamics/2010/01/datacontracts" />
+      <xsd:import schemaLocation="http://irv-sapl-axsbx:8101/DynamicsAx/Services/ACC_ExternalStagingQueryServiceGroup?xsd=xsd14" namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault" />
+      <xsd:import schemaLocation="http://irv-sapl-axsbx:8101/DynamicsAx/Services/ACC_ExternalStagingQueryServiceGroup?xsd=xsd0" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://irv-sapl-axsbx:8101/DynamicsAx/Services/ACC_ExternalStagingQueryServiceGroup?xsd=xsd1" namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Acc_ExternalStagingQuery" />
+      <xsd:import schemaLocation="http://irv-sapl-axsbx:8101/DynamicsAx/Services/ACC_ExternalStagingQueryServiceGroup?xsd=xsd2" namespace="http://schemas.microsoft.com/dynamics/2008/01/sharedtypes" />
+      <xsd:import schemaLocation="http://irv-sapl-axsbx:8101/DynamicsAx/Services/ACC_ExternalStagingQueryServiceGroup?xsd=xsd3" />
+      <xsd:import schemaLocation="http://irv-sapl-axsbx:8101/DynamicsAx/Services/ACC_ExternalStagingQueryServiceGroup?xsd=xsd4" namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/DocumentPaging" />
+      <xsd:import schemaLocation="http://irv-sapl-axsbx:8101/DynamicsAx/Services/ACC_ExternalStagingQueryServiceGroup?xsd=xsd5" namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList" />
+      <xsd:import schemaLocation="http://irv-sapl-axsbx:8101/DynamicsAx/Services/ACC_ExternalStagingQueryServiceGroup?xsd=xsd6" namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKey" />
+      <xsd:import schemaLocation="http://irv-sapl-axsbx:8101/DynamicsAx/Services/ACC_ExternalStagingQueryServiceGroup?xsd=xsd7" namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/EntityKeyPage" />
+      <xsd:import schemaLocation="http://irv-sapl-axsbx:8101/DynamicsAx/Services/ACC_ExternalStagingQueryServiceGroup?xsd=xsd10" namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/QueryCriteria" />
+      <xsd:import schemaLocation="http://irv-sapl-axsbx:8101/DynamicsAx/Services/ACC_ExternalStagingQueryServiceGroup?xsd=xsd13" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <xsd:import schemaLocation="http://irv-sapl-axsbx:8101/DynamicsAx/Services/ACC_ExternalStagingQueryServiceGroup?xsd=xsd15" namespace="http://schemas.datacontract.org/2004/07/Microsoft.Dynamics.AX.Framework.Services" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="Acc_ExternalStagingQueryServiceFindRequest">
+    <wsdl:part name="parameters" element="tns:Acc_ExternalStagingQueryServiceFindRequest" />
+  </wsdl:message>
+  <wsdl:message name="Acc_ExternalStagingQueryServiceFindRequest_Headers">
+    <wsdl:part xmlns:q1="http://schemas.microsoft.com/dynamics/2010/01/datacontracts" name="context" element="q1:CallContext" />
+  </wsdl:message>
+  <wsdl:message name="Acc_ExternalStagingQueryServiceFindResponse">
+    <wsdl:part name="parameters" element="tns:Acc_ExternalStagingQueryServiceFindResponse" />
+  </wsdl:message>
+  <wsdl:message name="Acc_ExternalStagingQueryService_find_AifFaultFault_FaultMessage">
+    <wsdl:part xmlns:q2="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault" name="detail" element="q2:AifFault" />
+  </wsdl:message>
+  <wsdl:message name="Acc_ExternalStagingQueryServiceUpdateRequest">
+    <wsdl:part name="parameters" element="tns:Acc_ExternalStagingQueryServiceUpdateRequest" />
+  </wsdl:message>
+  <wsdl:message name="Acc_ExternalStagingQueryServiceUpdateRequest_Headers">
+    <wsdl:part xmlns:q3="http://schemas.microsoft.com/dynamics/2010/01/datacontracts" name="context" element="q3:CallContext" />
+  </wsdl:message>
+  <wsdl:message name="Acc_ExternalStagingQueryServiceUpdateResponse">
+    <wsdl:part name="parameters" element="tns:Acc_ExternalStagingQueryServiceUpdateResponse" />
+  </wsdl:message>
+  <wsdl:message name="Acc_ExternalStagingQueryService_update_AifFaultFault_FaultMessage">
+    <wsdl:part xmlns:q4="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault" name="detail" element="q4:AifFault" />
+  </wsdl:message>
+  <wsdl:message name="Acc_ExternalStagingQueryServiceFindKeysRequest">
+    <wsdl:part name="parameters" element="tns:Acc_ExternalStagingQueryServiceFindKeysRequest" />
+  </wsdl:message>
+  <wsdl:message name="Acc_ExternalStagingQueryServiceFindKeysRequest_Headers">
+    <wsdl:part xmlns:q5="http://schemas.microsoft.com/dynamics/2010/01/datacontracts" name="context" element="q5:CallContext" />
+  </wsdl:message>
+  <wsdl:message name="Acc_ExternalStagingQueryServiceFindKeysResponse">
+    <wsdl:part name="parameters" element="tns:Acc_ExternalStagingQueryServiceFindKeysResponse" />
+  </wsdl:message>
+  <wsdl:message name="Acc_ExternalStagingQueryService_findKeys_AifFaultFault_FaultMessage">
+    <wsdl:part xmlns:q6="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault" name="detail" element="q6:AifFault" />
+  </wsdl:message>
+  <wsdl:message name="Acc_ExternalStagingQueryServiceDeleteRequest">
+    <wsdl:part name="parameters" element="tns:Acc_ExternalStagingQueryServiceDeleteRequest" />
+  </wsdl:message>
+  <wsdl:message name="Acc_ExternalStagingQueryServiceDeleteRequest_Headers">
+    <wsdl:part xmlns:q7="http://schemas.microsoft.com/dynamics/2010/01/datacontracts" name="context" element="q7:CallContext" />
+  </wsdl:message>
+  <wsdl:message name="Acc_ExternalStagingQueryServiceDeleteResponse">
+    <wsdl:part name="parameters" element="tns:Acc_ExternalStagingQueryServiceDeleteResponse" />
+  </wsdl:message>
+  <wsdl:message name="Acc_ExternalStagingQueryService_delete_AifFaultFault_FaultMessage">
+    <wsdl:part xmlns:q8="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault" name="detail" element="q8:AifFault" />
+  </wsdl:message>
+  <wsdl:message name="Acc_ExternalStagingQueryServiceGetChangedKeysRequest">
+    <wsdl:part name="parameters" element="tns:Acc_ExternalStagingQueryServiceGetChangedKeysRequest" />
+  </wsdl:message>
+  <wsdl:message name="Acc_ExternalStagingQueryServiceGetChangedKeysRequest_Headers">
+    <wsdl:part xmlns:q9="http://schemas.microsoft.com/dynamics/2010/01/datacontracts" name="context" element="q9:CallContext" />
+  </wsdl:message>
+  <wsdl:message name="Acc_ExternalStagingQueryServiceGetChangedKeysResponse">
+    <wsdl:part name="parameters" element="tns:Acc_ExternalStagingQueryServiceGetChangedKeysResponse" />
+  </wsdl:message>
+  <wsdl:message name="Acc_ExternalStagingQueryService_getChangedKeys_AifFaultFault_FaultMessage">
+    <wsdl:part xmlns:q10="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault" name="detail" element="q10:AifFault" />
+  </wsdl:message>
+  <wsdl:message name="Acc_ExternalStagingQueryServiceGetKeysRequest">
+    <wsdl:part name="parameters" element="tns:Acc_ExternalStagingQueryServiceGetKeysRequest" />
+  </wsdl:message>
+  <wsdl:message name="Acc_ExternalStagingQueryServiceGetKeysRequest_Headers">
+    <wsdl:part xmlns:q11="http://schemas.microsoft.com/dynamics/2010/01/datacontracts" name="context" element="q11:CallContext" />
+  </wsdl:message>
+  <wsdl:message name="Acc_ExternalStagingQueryServiceGetKeysResponse">
+    <wsdl:part name="parameters" element="tns:Acc_ExternalStagingQueryServiceGetKeysResponse" />
+  </wsdl:message>
+  <wsdl:message name="Acc_ExternalStagingQueryService_getKeys_AifFaultFault_FaultMessage">
+    <wsdl:part xmlns:q12="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault" name="detail" element="q12:AifFault" />
+  </wsdl:message>
+  <wsdl:message name="Acc_ExternalStagingQueryServiceReadRequest">
+    <wsdl:part name="parameters" element="tns:Acc_ExternalStagingQueryServiceReadRequest" />
+  </wsdl:message>
+  <wsdl:message name="Acc_ExternalStagingQueryServiceReadRequest_Headers">
+    <wsdl:part xmlns:q13="http://schemas.microsoft.com/dynamics/2010/01/datacontracts" name="context" element="q13:CallContext" />
+  </wsdl:message>
+  <wsdl:message name="Acc_ExternalStagingQueryServiceReadResponse">
+    <wsdl:part name="parameters" element="tns:Acc_ExternalStagingQueryServiceReadResponse" />
+  </wsdl:message>
+  <wsdl:message name="Acc_ExternalStagingQueryService_read_AifFaultFault_FaultMessage">
+    <wsdl:part xmlns:q14="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault" name="detail" element="q14:AifFault" />
+  </wsdl:message>
+  <wsdl:message name="Acc_ExternalStagingQueryServiceCreateRequest">
+    <wsdl:part name="parameters" element="tns:Acc_ExternalStagingQueryServiceCreateRequest" />
+  </wsdl:message>
+  <wsdl:message name="Acc_ExternalStagingQueryServiceCreateRequest_Headers">
+    <wsdl:part xmlns:q15="http://schemas.microsoft.com/dynamics/2010/01/datacontracts" name="context" element="q15:CallContext" />
+  </wsdl:message>
+  <wsdl:message name="Acc_ExternalStagingQueryServiceCreateResponse">
+    <wsdl:part name="parameters" element="tns:Acc_ExternalStagingQueryServiceCreateResponse" />
+  </wsdl:message>
+  <wsdl:message name="Acc_ExternalStagingQueryService_create_AifFaultFault_FaultMessage">
+    <wsdl:part xmlns:q16="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault" name="detail" element="q16:AifFault" />
+  </wsdl:message>
+  <wsdl:portType name="Acc_ExternalStagingQueryService">
+    <wsdl:operation name="find">
+      <wsdl:input wsaw:Action="http://schemas.microsoft.com/dynamics/2008/01/services/Acc_ExternalStagingQueryService/find" name="Acc_ExternalStagingQueryServiceFindRequest" message="tns:Acc_ExternalStagingQueryServiceFindRequest" />
+      <wsdl:output wsaw:Action="http://schemas.microsoft.com/dynamics/2008/01/services/Acc_ExternalStagingQueryService/findResponse" name="Acc_ExternalStagingQueryServiceFindResponse" message="tns:Acc_ExternalStagingQueryServiceFindResponse" />
+      <wsdl:fault wsaw:Action="http://schemas.microsoft.com/dynamics/2008/01/services/Acc_ExternalStagingQueryService/findAifFaultFault" name="AifFaultFault" message="tns:Acc_ExternalStagingQueryService_find_AifFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="update">
+      <wsdl:input wsaw:Action="http://schemas.microsoft.com/dynamics/2008/01/services/Acc_ExternalStagingQueryService/update" name="Acc_ExternalStagingQueryServiceUpdateRequest" message="tns:Acc_ExternalStagingQueryServiceUpdateRequest" />
+      <wsdl:output wsaw:Action="http://schemas.microsoft.com/dynamics/2008/01/services/Acc_ExternalStagingQueryService/updateResponse" name="Acc_ExternalStagingQueryServiceUpdateResponse" message="tns:Acc_ExternalStagingQueryServiceUpdateResponse" />
+      <wsdl:fault wsaw:Action="http://schemas.microsoft.com/dynamics/2008/01/services/Acc_ExternalStagingQueryService/updateAifFaultFault" name="AifFaultFault" message="tns:Acc_ExternalStagingQueryService_update_AifFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="findKeys">
+      <wsdl:input wsaw:Action="http://schemas.microsoft.com/dynamics/2008/01/services/Acc_ExternalStagingQueryService/findKeys" name="Acc_ExternalStagingQueryServiceFindKeysRequest" message="tns:Acc_ExternalStagingQueryServiceFindKeysRequest" />
+      <wsdl:output wsaw:Action="http://schemas.microsoft.com/dynamics/2008/01/services/Acc_ExternalStagingQueryService/findKeysResponse" name="Acc_ExternalStagingQueryServiceFindKeysResponse" message="tns:Acc_ExternalStagingQueryServiceFindKeysResponse" />
+      <wsdl:fault wsaw:Action="http://schemas.microsoft.com/dynamics/2008/01/services/Acc_ExternalStagingQueryService/findKeysAifFaultFault" name="AifFaultFault" message="tns:Acc_ExternalStagingQueryService_findKeys_AifFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="delete">
+      <wsdl:input wsaw:Action="http://schemas.microsoft.com/dynamics/2008/01/services/Acc_ExternalStagingQueryService/delete" name="Acc_ExternalStagingQueryServiceDeleteRequest" message="tns:Acc_ExternalStagingQueryServiceDeleteRequest" />
+      <wsdl:output wsaw:Action="http://schemas.microsoft.com/dynamics/2008/01/services/Acc_ExternalStagingQueryService/deleteResponse" name="Acc_ExternalStagingQueryServiceDeleteResponse" message="tns:Acc_ExternalStagingQueryServiceDeleteResponse" />
+      <wsdl:fault wsaw:Action="http://schemas.microsoft.com/dynamics/2008/01/services/Acc_ExternalStagingQueryService/deleteAifFaultFault" name="AifFaultFault" message="tns:Acc_ExternalStagingQueryService_delete_AifFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getChangedKeys">
+      <wsdl:input wsaw:Action="http://schemas.microsoft.com/dynamics/2008/01/services/Acc_ExternalStagingQueryService/getChangedKeys" name="Acc_ExternalStagingQueryServiceGetChangedKeysRequest" message="tns:Acc_ExternalStagingQueryServiceGetChangedKeysRequest" />
+      <wsdl:output wsaw:Action="http://schemas.microsoft.com/dynamics/2008/01/services/Acc_ExternalStagingQueryService/getChangedKeysResponse" name="Acc_ExternalStagingQueryServiceGetChangedKeysResponse" message="tns:Acc_ExternalStagingQueryServiceGetChangedKeysResponse" />
+      <wsdl:fault wsaw:Action="http://schemas.microsoft.com/dynamics/2008/01/services/Acc_ExternalStagingQueryService/getChangedKeysAifFaultFault" name="AifFaultFault" message="tns:Acc_ExternalStagingQueryService_getChangedKeys_AifFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getKeys">
+      <wsdl:input wsaw:Action="http://schemas.microsoft.com/dynamics/2008/01/services/Acc_ExternalStagingQueryService/getKeys" name="Acc_ExternalStagingQueryServiceGetKeysRequest" message="tns:Acc_ExternalStagingQueryServiceGetKeysRequest" />
+      <wsdl:output wsaw:Action="http://schemas.microsoft.com/dynamics/2008/01/services/Acc_ExternalStagingQueryService/getKeysResponse" name="Acc_ExternalStagingQueryServiceGetKeysResponse" message="tns:Acc_ExternalStagingQueryServiceGetKeysResponse" />
+      <wsdl:fault wsaw:Action="http://schemas.microsoft.com/dynamics/2008/01/services/Acc_ExternalStagingQueryService/getKeysAifFaultFault" name="AifFaultFault" message="tns:Acc_ExternalStagingQueryService_getKeys_AifFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="read">
+      <wsdl:input wsaw:Action="http://schemas.microsoft.com/dynamics/2008/01/services/Acc_ExternalStagingQueryService/read" name="Acc_ExternalStagingQueryServiceReadRequest" message="tns:Acc_ExternalStagingQueryServiceReadRequest" />
+      <wsdl:output wsaw:Action="http://schemas.microsoft.com/dynamics/2008/01/services/Acc_ExternalStagingQueryService/readResponse" name="Acc_ExternalStagingQueryServiceReadResponse" message="tns:Acc_ExternalStagingQueryServiceReadResponse" />
+      <wsdl:fault wsaw:Action="http://schemas.microsoft.com/dynamics/2008/01/services/Acc_ExternalStagingQueryService/readAifFaultFault" name="AifFaultFault" message="tns:Acc_ExternalStagingQueryService_read_AifFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="create">
+      <wsdl:input wsaw:Action="http://schemas.microsoft.com/dynamics/2008/01/services/Acc_ExternalStagingQueryService/create" name="Acc_ExternalStagingQueryServiceCreateRequest" message="tns:Acc_ExternalStagingQueryServiceCreateRequest" />
+      <wsdl:output wsaw:Action="http://schemas.microsoft.com/dynamics/2008/01/services/Acc_ExternalStagingQueryService/createResponse" name="Acc_ExternalStagingQueryServiceCreateResponse" message="tns:Acc_ExternalStagingQueryServiceCreateResponse" />
+      <wsdl:fault wsaw:Action="http://schemas.microsoft.com/dynamics/2008/01/services/Acc_ExternalStagingQueryService/createAifFaultFault" name="AifFaultFault" message="tns:Acc_ExternalStagingQueryService_create_AifFaultFault_FaultMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

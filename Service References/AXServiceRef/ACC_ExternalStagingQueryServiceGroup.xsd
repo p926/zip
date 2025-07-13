@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.microsoft.com/dynamics/2008/01/services" elementFormDefault="qualified" targetNamespace="http://schemas.microsoft.com/dynamics/2008/01/services" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://irv-sapl-axsbx:8101/DynamicsAx/Services/ACC_ExternalStagingQueryServiceGroup?xsd=xsd10" namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/QueryCriteria" />
+  <xs:import schemaLocation="http://irv-sapl-axsbx:8101/DynamicsAx/Services/ACC_ExternalStagingQueryServiceGroup?xsd=xsd1" namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Acc_ExternalStagingQuery" />
+  <xs:import schemaLocation="http://irv-sapl-axsbx:8101/DynamicsAx/Services/ACC_ExternalStagingQueryServiceGroup?xsd=xsd5" namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList" />
+  <xs:import schemaLocation="http://irv-sapl-axsbx:8101/DynamicsAx/Services/ACC_ExternalStagingQueryServiceGroup?xsd=xsd4" namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/DocumentPaging" />
+  <xs:import schemaLocation="http://irv-sapl-axsbx:8101/DynamicsAx/Services/ACC_ExternalStagingQueryServiceGroup?xsd=xsd7" namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/EntityKeyPage" />
+  <xs:element name="Acc_ExternalStagingQueryServiceFindRequest">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.microsoft.com/dynamics/2006/02/documents/QueryCriteria" minOccurs="0" ref="q1:QueryCriteria" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Acc_ExternalStagingQueryServiceFindResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.microsoft.com/dynamics/2008/01/documents/Acc_ExternalStagingQuery" minOccurs="0" ref="q2:Acc_ExternalStagingQuery" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Acc_ExternalStagingQueryServiceUpdateRequest">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList" minOccurs="0" ref="q3:EntityKeyList" />
+        <xs:element xmlns:q4="http://schemas.microsoft.com/dynamics/2008/01/documents/Acc_ExternalStagingQuery" minOccurs="0" ref="q4:Acc_ExternalStagingQuery" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Acc_ExternalStagingQueryServiceUpdateResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Acc_ExternalStagingQueryServiceFindKeysRequest">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.microsoft.com/dynamics/2006/02/documents/QueryCriteria" minOccurs="0" ref="q5:QueryCriteria" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Acc_ExternalStagingQueryServiceFindKeysResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q6="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList" minOccurs="0" ref="q6:EntityKeyList" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Acc_ExternalStagingQueryServiceDeleteRequest">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q7="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList" minOccurs="0" ref="q7:EntityKeyList" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Acc_ExternalStagingQueryServiceDeleteResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Acc_ExternalStagingQueryServiceGetChangedKeysRequest">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q8="http://schemas.microsoft.com/dynamics/2011/02/documents/DocumentPaging" minOccurs="0" ref="q8:DocumentPaging" />
+        <xs:element minOccurs="0" name="_changedDateTime" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Acc_ExternalStagingQueryServiceGetChangedKeysResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q9="http://schemas.microsoft.com/dynamics/2011/02/documents/EntityKeyPage" minOccurs="0" ref="q9:EntityKeyPage" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Acc_ExternalStagingQueryServiceGetKeysRequest">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q10="http://schemas.microsoft.com/dynamics/2011/02/documents/DocumentPaging" minOccurs="0" ref="q10:DocumentPaging" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Acc_ExternalStagingQueryServiceGetKeysResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q11="http://schemas.microsoft.com/dynamics/2011/02/documents/EntityKeyPage" minOccurs="0" ref="q11:EntityKeyPage" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Acc_ExternalStagingQueryServiceReadRequest">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q12="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList" minOccurs="0" ref="q12:EntityKeyList" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Acc_ExternalStagingQueryServiceReadResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q13="http://schemas.microsoft.com/dynamics/2008/01/documents/Acc_ExternalStagingQuery" minOccurs="0" ref="q13:Acc_ExternalStagingQuery" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Acc_ExternalStagingQueryServiceCreateRequest">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q14="http://schemas.microsoft.com/dynamics/2008/01/documents/Acc_ExternalStagingQuery" minOccurs="0" ref="q14:Acc_ExternalStagingQuery" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Acc_ExternalStagingQueryServiceCreateResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q15="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList" minOccurs="0" ref="q15:EntityKeyList" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://irv-sapl-axsbx:8101/DynamicsAx/Services/ACC_ExternalStagingQueryServiceGroup?xsd=xsd1" namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Acc_ExternalStagingQuery" />
+  <xs:import schemaLocation="http://irv-sapl-axsbx:8101/DynamicsAx/Services/ACC_ExternalStagingQueryServiceGroup?xsd=xsd4" namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/DocumentPaging" />
+  <xs:import schemaLocation="http://irv-sapl-axsbx:8101/DynamicsAx/Services/ACC_ExternalStagingQueryServiceGroup?xsd=xsd5" namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList" />
+  <xs:import schemaLocation="http://irv-sapl-axsbx:8101/DynamicsAx/Services/ACC_ExternalStagingQueryServiceGroup?xsd=xsd7" namespace="http://schemas.microsoft.com/dynamics/2011/02/documents/EntityKeyPage" />
+  <xs:import schemaLocation="http://irv-sapl-axsbx:8101/DynamicsAx/Services/ACC_ExternalStagingQueryServiceGroup?xsd=xsd10" namespace="http://schemas.microsoft.com/dynamics/2006/02/documents/QueryCriteria" />
+  <xs:element xmlns:q1="http://schemas.microsoft.com/dynamics/2008/01/documents/Acc_ExternalStagingQuery" name="AxdAcc_ExternalStagingQuery" type="q1:AxdAcc_ExternalStagingQuery" />
+  <xs:element xmlns:q2="http://schemas.microsoft.com/dynamics/2011/02/documents/DocumentPaging" name="DocumentPaging" type="q2:DocumentPaging" />
+  <xs:element xmlns:q3="http://schemas.microsoft.com/dynamics/2006/02/documents/EntityKeyList" name="EntityKeyList" type="q3:EntityKeyList" />
+  <xs:element xmlns:q4="http://schemas.microsoft.com/dynamics/2011/02/documents/EntityKeyPage" name="EntityKeyPage" type="q4:EntityKeyPage" />
+  <xs:element xmlns:q5="http://schemas.microsoft.com/dynamics/2006/02/documents/QueryCriteria" name="QueryCriteria" type="q5:QueryCriteria" />
+</xs:schema>

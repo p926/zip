@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns:tns="http://schemas.microsoft.com/dynamics/2011/02/documents/DocumentPaging" elementFormDefault="qualified" targetNamespace="http://schemas.microsoft.com/dynamics/2011/02/documents/DocumentPaging" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:element name="DocumentPaging" type="tns:DocumentPaging" />
+  <xsd:complexType name="DocumentPaging">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" name="Bookmark" nillable="true" type="xsd:string" />
+      <xsd:element name="PageSize" type="xsd:int" />
+    </xsd:sequence>
+  </xsd:complexType>
+</xsd:schema>
