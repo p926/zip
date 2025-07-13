@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+
+    <siteMapNode url="Default.aspx" title="Instadose" description="Manage the Instadose web applications. Select the application you wish to access.">
+        <!--FINANCE DASHBOARD-->
+        <siteMapNode url="Finance/Default.aspx" title="Financial Dashboard" description="Finance Dashboard">
+            <siteMapNode url="Finance/EDIInvoices.aspx" title="EDI Invoices" />
+            <siteMapNode url="Finance/NewProcessCreditCard.aspx" title="Orbital Paymentech Process a Credit Card" description="Manually process a credit card through Orbital Paymentech that is associated to an invoice."/>
+            <siteMapNode url="Finance/MockProcessCreditCard.aspx" title="Orbital Paymentech Process Mock Invoices Payment" description="Manually process a credit card through Orbital Paymentech for mock invoices."/>
+            <siteMapNode url="Finance/AXNewProcessCreditCard.aspx" title="AX Orbital Paymentech Process a Credit Card" description="Manually process a credit card through Orbital Paymentech that is associated to an AX invoice."/>
+            <siteMapNode url="Finance/CreditMemoSearch.aspx" title="Create Credit Memo" description="Create credit memo by account ID."/>
+            <siteMapNode url="Finance/CreditMemo.aspx" title="Credit Memo Detail" description="Credit memo detail by account ID."/>
+            <siteMapNode url="Finance/AXCreditRebill.aspx" title="AX Invoice Credit and Rebill" description="AX Invoice Credit and Rebill."/>
+            <siteMapNode url="Finance/Reports.aspx" title="Generate Reports" description="Generate Reports for Credit Card Expirations and Daily Batches."/>
+					  <siteMapNode url="Finance/BatchProcessing/Default.aspx" title="Batch Processing" description="Run orders through the batch processing to send data to Softrax, PayPal and MAS.">
+                <siteMapNode url="Finance/BatchProcessing/Review.aspx" title="Review Batch" description="Review the batch before processing the orders."/>
+            </siteMapNode>
+            <siteMapNode url="Finance/Renewal/Default.aspx" title="Renewals" description="Renew account badges that are expired or about to expire.">
+                <siteMapNode url="Finance/Renewal/Renewals.aspx" title="Process" description="View a list of accounts that are ready to be renewed and process renewal orders for those accounts."/>
+								<siteMapNode url="Finance/Renewal/RenewalProcess.aspx" title="Process" description="View a list of accounts that are ready to be renewed and process renewal orders for those accounts."/>
+                <siteMapNode url="Finance/Renewal/RenewalGeneration.aspx" title="Generate Renewals" description=""/>
+                <siteMapNode url="Finance/Renewal/ScheduledBillings.aspx" title="Process Scheduled Billings" description="View a list of quarterly accounts that are ready to be billed and process billing orders for those accounts."/>
+                <siteMapNode url="Finance/Renewal/RenewalRelease.aspx" title="Release Renewals" description=""/>
+                <siteMapNode url="Finance/Renewal/ReviewLog.aspx" title="Review Renewal Log Generated" description=""/>
+                <siteMapNode url="Finance/Renewal/RenewalReviewExport.aspx" title="Review Renewals for Export" description=""/>
+                <siteMapNode url="Finance/Renewal/RenewalForecast.aspx" title="Process Renewals Forecast" description=""/>
+                <siteMapNode url="Finance/Renewal/ForecastChart.aspx" title="Instadose Renewals Forecast" description=""/>
+                <siteMapNode url="Finance/Renewal/ReadyToInvoice.aspx" title="Ready To Invoice"  />
+                <siteMapNode url="Finance/Renewal/LocationRenewalGeneration.aspx" title="Generate Location Renewals" description=""/>
+								<siteMapNode url="Finance/Renewal/RenewalExceptions.aspx" title="Exceptions" description="View a list of accounts that have exception to be renewed and process renewal orders for those accounts."/>
+								<siteMapNode url="Finance/Renewal/ThreadLog.aspx" title="Progress" description="View a list of renewals in process"/>
+            </siteMapNode>
+        </siteMapNode>
+        <!--END-->
+      
+        <!--INFORMATION FINDER-->
+        <siteMapNode url="InformationFinder/Default.aspx" title="Information Finder" description="Use the fields below to find information about accounts, users, badges, orders and payment history.">
+            <siteMapNode url="InformationFinder/Compose/AccountNotes.aspx" title="Compose Notes"  description="Compose notes for this account." />
+            <siteMapNode url="InformationFinder/Compose/Return.aspx" title="Create Return"  description="Create a return for an account's badges.  Fill out the fields below and click continue to start the return process." />
+            <siteMapNode url="InformationFinder/Compose/ReturnAddNewDevice.aspx" title="Add Extra Badges to a Return"  description="Add extra badges to be returned.  Fill out the fields below and check All Serial# need to be added to this Return, then Click UPdate." />
+            <siteMapNode url="InformationFinder/Compose/ReturnDetails.aspx" title="Add Badges to a Return"  description="Create or update the badges to be returned.  Fill out the fields below and click Finish to complete the return process." />
+            <siteMapNode url="InformationFinder/Compose/ReturnDeviceDetails.aspx" title="Update a Badges to a Return"  description="Update a badges to be returned.  Fill out the fields below and click Update to complete the return process." />
+            <siteMapNode url="InformationFinder/Compose/ReturnDeviceNew.aspx" title="Add a Badge to a Return"  description="Add a badge to be returned in an existing return.  Fill out the fields below and click Add to complete the return process." />
+            <siteMapNode url="InformationFinder/Details/Account.aspx" title="Account Details"  description="Review details about an account." />
+            <siteMapNode url="InformationFinder/Details/AccountBadgesExport.aspx" title="Review Account Badges for Export"  description="" />
+            <siteMapNode url="InformationFinder/Details/AccountInvoicesExport.aspx" title="Review Account Invoices for Export"  description="" />
+            <siteMapNode url="InformationFinder/Details/AccountUsersExport.aspx" title="Review Account Users for Export"  description="" />
+            <siteMapNode url="InformationFinder/Details/AccountReadsExport.aspx" title="Review Account Reads for Export"  description="" />
+            <siteMapNode url="InformationFinder/Details/Case.aspx" title="C/S Request Details"  description="Review details about a C/S request." />
+            <siteMapNode url="InformationFinder/Details/Device.aspx" title="Badge Details"  description="Review details about a badge." />
+            <siteMapNode url="InformationFinder/Details/Order.aspx" title="Order Details"  description="Review details about an order." />
+            <siteMapNode url="InformationFinder/Details/UserMaintenance.aspx" title="Manage User"  description="Add or update a user." />
+            <siteMapNode url="InformationFinder/Details/EditLocation.aspx" title="Manage Location"  description="Add or update a location." />
+            <siteMapNode url="InformationFinder/Details/EditGroup.aspx" title="Manage Group"  description="Add or update a group." />
+            <siteMapNode url="InformationFinder/Details/Return.aspx" title="Returns"  description="Review details about badge returns." />
+            <siteMapNode url="InformationFinder/Details/Return_ViewAttachment.aspx" title="Return Details - View Attachment"  description="View Attachment File" />
+            <siteMapNode url="InformationFinder/Details/Location.aspx" title="Tech Ops Location Details "  description="Tech Ops Locations" />
+            <siteMapNode url="InformationFinder/Reports/Default.aspx" title="Reports"  description="Reports for Instadose" />
+            <siteMapNode url="InformationFinder/GenerateProformaInvoice.aspx" title="Generate Proforma Invoice" description="Create a Proforma Invoice for an order in a PDF format to email to customers." />
+            <siteMapNode url="InformationFinder/GenerateOrderAck.aspx" title="Generate Order Acknowledgement" description="Create an order acknowledgement for an order in a PDF format to email to customers." />
+            <siteMapNode url="InformationFinder/EmailOrderAck.aspx" title="Email Order Acknowledgement" description="Email the originial order acknowledgement in PDF format to customer." />
+            <siteMapNode url="InformationFinder/Details/EditBillingGroup.aspx" title="Manage Invoice Delivery Method"  description="Add or update an invoice delivery method." />
+        </siteMapNode>
+        <!--END-->
+      
+        <!--SALES DASHBOARD-->
+        <siteMapNode url="Sales/Default.aspx" title="Sales Dashboard" description="Sales Dashboard">
+            <siteMapNode url="Sales/SalesRepDistributors.aspx" title="Sales People Maintenance" description="Allow Manual Adjustments to Sales People."/>
+        </siteMapNode>
+        <!--END-->
+      
+        <!--SHIPPING & RECEIVING DASHBOARD-->
+        <siteMapNode url="Shipping/Default.aspx" title="Shipping &amp; Receiving Dashboard" description="Shipping Dashboard">
+            <siteMapNode url="Shipping/ReceiveInventory.aspx" title="Receive Returned Inventory"  description="" />
+            <siteMapNode url="Shipping/NewReceivingInventory.aspx" title="New Receive Returned Inventory"  description="" />
+            <siteMapNode url="Shipping/POReceipt.aspx" title="Receipt of Good Entry"  description="" />
+            <siteMapNode url="Shipping/ReleaseToWIP.aspx" title="Release QA Instadoses to Tech-Ops"  description="" />
+            <siteMapNode url="Shipping/DeviceTracking.aspx" title="Instadose Physical Count"  description="" />
+            <siteMapNode url="Shipping/ReceivingBinManagement.aspx" title="Receiving Bin Management"  description="" />
+            <siteMapNode url="Shipping/SpecialInstruction.aspx" title="Device Instructions"  description="" />
+        </siteMapNode>
+        <!--END-->
+        
+        <!--TECHNICAL OPERATIONS (TECH. OPS.) DASHBOARD-->
+        <siteMapNode url="TechOps/Default.aspx" title="Technical Dashboard" description="Technical Dashboard">
+            <siteMapNode url="TechOps/ManageDose.aspx" title="Manage Dose" description="Allow Manual Dose Adjustments or Input of Lifetime Dose History."/>
+            <siteMapNode url="TechOps/SerialNoSearch.aspx" title="Serial Number Search" description="Allow search by Badge's serial number.">
+                <siteMapNode url="TechOps/BadgeReview.aspx" title="Badge Review" description="Allow Display of all Tech Ops Reads before release to Inventory."/>
+            </siteMapNode>
+            <siteMapNode url="TechOps/ReadAnalysis.aspx" title="Read Analysis" description="Initiate Read Analysis process.">
+                <siteMapNode url="TechOps/ReadAnalysisReview.aspx" title="Read Analysis Review" description="Review the results of each analyzed User Device Read."/>
+                <siteMapNode url="TechOps/ReadAnalysisSummaryReports.aspx" title="Read Analysis Summary Reports" description="View and Export to Excel a selected Read Analysis Run's details."/>
+            </siteMapNode>
+			<siteMapNode url="TechOps/ReadAnalysisRecallList.aspx" title="Recall List" description="Recall List." />
+            <siteMapNode url="TechOps/PressureTestResults.aspx" title="Pressure Test Results" description="Display/Print results of Pressure Tests for a specific Group."/>
+            <siteMapNode url="TechOps/OthersListing.aspx" title="Others Listing" description="Display list of 'Others' accounts."/>
+            <siteMapNode url="TechOps/ReturnAddNewDeviceRMA.aspx" title="Create New Recall"  description="Tech opps Recall.  Enter a Serial Number need to be recalled, then Click 'Initiate Request'." />
+            <siteMapNode url="TechOps/RecallStatus.aspx" title="Recalls Status"  description="Summary of all recalls." />
+            <siteMapNode url="TechOps/ReturnInventory.aspx" title="Receipt of Badges"  description="Enter all serial numbers and click 'Add Badges'. Fill out the 'Tech Notes' field and attach document if necessary, then click 'Acknowledge Receipt of Devices'. " />
+            <siteMapNode url="TechOps/DriftAnalysis.aspx" title="Drift Analysis" description="Perform a Drift Analysis on a group of badges and commit them into inventory."/>
+            <siteMapNode url="TechOps/FactorsSearch.aspx" title="Factors Search" description="Search for Factors by Account Number.">                
+                <siteMapNode url="TechOps/Factors_New.aspx" title="Factors" description="Manage Account and Location Factors."/>                
+            </siteMapNode>
+            <siteMapNode url="TechOps/LocationFactors.aspx" title="Location Factors" description="Manage Location Factors."/>
+            <siteMapNode url="TechOps/MasterBaselineFileUpload.aspx" title="PO Receipt Files Upload" description="Upload the Master/Baseline files and Enter PO Receipts Journal in MAS."/>
+            <siteMapNode url="TechOps/MasterBaselineUploadDetail.aspx" title="Master/Baseline Upload" description="Upload Master file and Baseline file."/>
+            <siteMapNode url="TechOps/RequestTransferQAToWIP.aspx" title="Request Badges for Testing" description="Make a request to QA to issue badges for testing."/>
+            <siteMapNode url="TechOps/AssignGroupColor.aspx" title="Assign Group" description="Assign a group to the devices."/>            
+            <siteMapNode url="TechOps/ID2DoseEmulator.aspx" title="ID2 Dose Emulator" description="Calculate Doses of ID2 Dummy Badge."/>
+            <siteMapNode url="TechOps/MasterBaselineUploadDetail2.aspx" title="ID2 Master/Baseline Upload" description="Upload Master file and Baseline file for ID2."/>
+            <siteMapNode url="TechOps/MasterBaselineUploadDetail3.aspx" title="IMI MAS Upload" description="Upload to MAS for IMI Instadose."/>
+            <siteMapNode url="TechOps/MasterBaselineUploadDetailIDPlus.aspx" title="ID+ MAS Upload" description="Upload to MAS for ID+ Instadose."/>
+            <siteMapNode url="TechOps/CalendarSetting.aspx" title="Calendar Setting" description="Setting Scheduled Reads for a Group."/>
+            <siteMapNode url="TechOps/CalendarSettingReport.aspx" title="Group Reads Report" description=""/>
+            <siteMapNode url="TechOps/CalendarSynchStatus.aspx" title="Group Synch Status" description=""/>
+            <siteMapNode url="TechOps/DosimetryDocuments.aspx" title="Manage Dosimetry Docs" description="Manage documents used on doc.dosimetry.com."/>
+            <siteMapNode url="TechOps/DosimetryDocUsers.aspx" title="Manage Dosimetry Doc Users" description="Manage users on doc.dosimetry.com."/>
+            <siteMapNode url="TechOps/ID2CalibrationVerificationAnalysis.aspx" title="ID2 Calibration Verification Analysis" description=""/>
+            <siteMapNode url="TechOps/ID2PostDriftAnalysis.aspx" title="ID2 Post Drift Analysis" description=""/>
+            <siteMapNode url="TechOps/ID2BackgroundTestAnalysis.aspx" title="ID2 Background Test Analysis" description=""/>
+            <siteMapNode url="TechOps/ID2OverallAnalysis.aspx" title="ID2 Overall Test Analysis" description=""/>
+            <siteMapNode url="TechOps/ID2Analysis.aspx" title="ID2 Analysis" description=""/>
+            <siteMapNode url="TechOps/DoseCalcParameters.aspx" title="Dose Calculation Parameters" description="Manage Dose Calculation Parameters"/>
+						<siteMapNode url="TechOps/OrderQueue.aspx" title="Order Queue" description="Manage Orders"/>            
+            <siteMapNode url="TechOps/DeviceWarehouseTransfer.aspx" title="Device Warehouse Transfer" description="Transfering a Device to a Different Warehouse/Status"/>
+            <siteMapNode url="TechOps/CurrentDeviceAssignment.aspx" title="Current Device Assignment" description="Assign/unassign Account Devices"/>
+        </siteMapNode>
+        <!--END-->
+
+        <!--MANUFACTURING DASHBOARD-->
+        <siteMapNode url="Manufacturing/Default.aspx" title="Manufacturing Dashboard" description="Manufacturing Dashboard">
+            <siteMapNode url="Manufacturing/DistributorInventory.aspx" title="Distributor Inventory Entry" description="Allow Entry of Distributor Inventory." />
+            <siteMapNode url="Manufacturing/ShippingQueue.aspx" title="Pick Sheets, Packing List and Shipping History"  description="Allow print pick sheet, packing list and view ship history." />
+            <siteMapNode url="Manufacturing/ShippingQueueClear.aspx" title="Insert Tracking# and Merge Packages" description="Allow clear packages in shipping queue." />
+            <siteMapNode url="Manufacturing/AggregateShippingReport.aspx" title="Shipping Summary Report" description="View a summary report of products shipped." />
+            <siteMapNode url="Manufacturing/ConvertProductSKU.aspx" title="Convert Product SKU" description="Convert old Instadose 1 Product SKU's to new Instadose IMI Product SKU's." />
+        </siteMapNode>
+        <!--END-->
+        
+        <!--CUSTOMER SERVICE (CS) DASHBOARD-->
+        <siteMapNode url="CustomerService/Default.aspx" title="Customer Service Dashboard" description="Customer Service Dashboard">
+            <siteMapNode url="CustomerService/ICCareDealerMaintenance.aspx" title="IC Care Dealer Maintenance" description="">
+                <siteMapNode url="CustomerService/DealerDocuments.aspx" title="Upload Dealer Documents" description="Upload documents from Dealers."/>
+            </siteMapNode>
+            <siteMapNode url="CustomerService/ShipmentsLookup.aspx" title="Look Up Shipments by Date" description="" />
+            <siteMapNode url="CustomerService/ShipmentAssign.aspx" title="Assign Shipments for Enterprise Accounts" description="" />
+            <siteMapNode url="CustomerService/OrderQueue.aspx" title="Order Queue"  description="" />
+            <siteMapNode url="CustomerService/PORequestView.aspx" title="PO Request View"  description="" />
+            <siteMapNode url="CustomerService/PORequestUpload.aspx" title="PO Request Upload"  description="" />
+            <siteMapNode url="CustomerService/DealerPORequest.aspx" title="Manage Dealer PO Request"  description="" />
+            <siteMapNode url="CustomerService/CreateOrder.aspx" title="Manage Order"  description="Add/Edit transition order to customer. " />
+            <siteMapNode url="CustomerService/CreateAccount.aspx" title="Manage Account" description="Add/Edit New Account." />
+            <siteMapNode url="CustomerService/ManageOrdAcknowledgement.aspx" title="Manage Order Acknowledgement" description="Upload/View order acknowledgement." />
+            <siteMapNode url="CustomerService/DeactivateAccount.aspx" title="Deactivate/Activate Account" description="Allow Deactivate or Re-Activate account" />
+            <siteMapNode url="CustomerService/ReviewOrder.aspx" title="Order Review"  description="Review customer order. " />
+            <siteMapNode url="CustomerService/RequestCase.aspx" title="Request Case" description="" />
+            <siteMapNode url="CustomerService/DealerAccountSales.aspx" title="Account and Invoice Listings" description="Search by Sales Rep. to get Accounts and Invoice History." />
+            <siteMapNode url="CustomerService/RequestQueue.aspx" title="Request Queue" description="View Customer Service Requests" />
+            <siteMapNode url="CustomerService/CreateRequestCase.aspx" title="Create Request Case" description="Create Request Case" />
+            <!--<siteMapNode url="CustomerService/CreditCardExpirationListing.aspx" title="Credit Card Expiration Dates" description="Credit Card Expiration Dates" />-->
+            <siteMapNode url="CustomerService/CRMAccounts.aspx" title="Review Customer Index" description="Review an CRM Account.">
+                <siteMapNode url="CustomerService/AddCRMAccounts.aspx" title="Add Customer Index" description="Add an CRM Account."/>
+                <siteMapNode url="CustomerService/EditCRMAccounts.aspx" title="Edit Customer Index" description="Edit an CRM Account."/>
+            </siteMapNode>
+            <siteMapNode url="CustomerService/EDIPurchaseOrders.aspx" title="EDI Purchase Orders" />
+        </siteMapNode>
+        <!--END-->
+
+        <!--INFORMATION TECHNOLOGY (IT) DASHBOARD-->
+        <siteMapNode url="IT/Default.aspx" title="IT Dashboard" description="IT Dashboard">
+            <siteMapNode url="IT/DeviceProfiles.aspx" title="Badge Profiles" description="" />
+            <siteMapNode url="IT/MultiUsersInsert.aspx" title="Load Multi Users to Account" description="Load Multi Users to Account with CSV File." />
+            <siteMapNode url="IT/DirectAccessAPITest.aspx" title="Direct Access API Demo" description="" />
+            <siteMapNode url="IT/RateCodes.aspx" title="Rate Code Maintenance" description="Manage Rate Code Data."/>
+            <siteMapNode url="IT/RateCodeDetails.aspx" title="Rate Details Maintenance" description="Manage Rate Detail Data."/>
+            <siteMapNode url="IT/LabelPrintTest.aspx" title="Label Printing" description="Print labels."/>
+            <siteMapNode url="IT/BatteryAnalysis.aspx" title="Battery Analysis Graph" description="View Battery Analysis Data."/>
+            <siteMapNode url="IT/CreateOntimeItem.aspx" title="Create Ontime Item" description="Insert Ontime Item."/>
+            <siteMapNode url="IT/HardwareUpdates.aspx" title="Manage Hardware Updates" />
+            <siteMapNode url="IT/OntimeItemDetail.aspx" title="Ontime Item Detail" />
+            <siteMapNode url="IT/DosimetryDocuments.aspx" title="Manage Dosimetry Documents" />
+            <siteMapNode url="IT/DosimetryDocUsers.aspx" title="Manage Dosimetry Doc Users" />
+            <siteMapNode url="IT/DeleteOrders.aspx" title="Delete Orders" />
+            <siteMapNode url="IT/ScheduleControlBadge.aspx" title="Calendar Control Badge" />
+            <siteMapNode url="IT/DeviceCommInformation.aspx" title="Device Communications Information" />
+            <siteMapNode url="IT/HelpDeskTool.aspx" title="IT Help Desk Tool" />
+        </siteMapNode>
+        <!--END-->
+    </siteMapNode>
+</siteMap>
