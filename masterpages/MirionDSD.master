@@ -1,0 +1,110 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" Inherits="masterpages_MirionDSD" Codebehind="MirionDSD.master.cs" %>
+<%@ Register Src="~/Controls/QuickMenu.ascx" TagName="QuickMenu" TagPrefix="qm" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head runat="server">
+    <title>Mirion Technologies, Inc. DSD - Web Applications</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="/images/favicon.ico" rel="shortcut icon" type="image/ico" />
+
+
+    <link href="~/css/dsd-default/basic.css?v=1.3" rel="stylesheet" type="text/css" />
+    <link href="~/css/dsd-default/controls.css?v=1.2" rel="stylesheet" type="text/css" />
+    <link href="~/css/dsd-default/appmenu.css" rel="stylesheet" type="text/css" />
+    <link href="~/css/dsd-default/jquery-ui.dsd.css" rel="stylesheet" type="text/css" />
+    <link href="~/css/PortalControls.css" rel="stylesheet" type="text/css" />
+	
+    <script type="text/javascript" src="/scripts/jquery-latest.js"></script>
+    <script type="text/javascript" src="/scripts/jquery-ui-latest.js"></script>
+    <script type="text/javascript" src="/scripts/mirion-dsd.layout.js"></script>
+    <script type="text/javascript" src="/scripts/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="/scripts/instadose.common.js"></script>
+
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>	
+    <form id="form1" runat="server">
+	<div class="ui-overlay" style="display:none;"><div class="ui-widget-overlay"></div></div>
+	<div class="GlobalNavContainer">
+		<div class="GlobalNav">
+			<div class="PageMenuContainerLogo">
+				<asp:PlaceHolder ID="phTopLogoWithHiddenMenu" runat="server">
+				    <div id="GlobalLogo" class="PageLogo"></div>
+                </asp:PlaceHolder>
+                <asp:PlaceHolder ID="phTopLogoWithoutHiddenMenu" runat="server">
+                    <div class="PageLogo"></div>
+                </asp:PlaceHolder>
+                <div class="MirionText"></div>
+				<div class="Clear"></div>
+			</div>
+		</div>
+	</div>
+	<div class="PrimaryContainer">
+	
+        <asp:PlaceHolder ID="phQuickMenu" runat="server">
+		    <div style="margin: 0 10px;">
+			    <div class="QuickMenuButton" id="QuickMenuButton"><a href="#"></a></div>
+			    <div class="QuickMenuContainer" id="QuickMenuContainer">
+                    <qm:QuickMenu id="quickMenu" runat="server" />
+			    </div>
+		    </div>
+        </asp:PlaceHolder>
+
+		<div class="PageContainer">
+			<div class="PageHeader">
+				<div class="PageShadow"></div>
+				<div class="PageHiddenMenuContainer">
+					<div class="ApplicationsContainer">
+						<div class="Application">
+                            <asp:PlaceHolder ID="phTopHiddenMenu" runat="server">
+							    <div class="Icon MirionPortal"><a href="https://www.mirioncorp.com">Mirion Hub</a></div>
+							    <div class="Icon InstadosePortal"><a href="https://portal.instadose.com">Instadose Portal</a></div>
+							    <div class="Icon GDSPortal"><a href="https://csws.mirioncorp.com/">CS Web Suite</a></div>
+							    <div class="Icon Docustore"><a href="https://atlas.mirioncorp.com/docustore/">DocuStore</a></div>
+							    <div class="Clear"></div>
+                            </asp:PlaceHolder>
+						</div>
+					</div>
+				</div>
+				<div class="PageBreadcrumbContainer">
+					<div class="PageBreadcrumb">
+						<asp:SiteMapPath ID="SiteMapPath1" SiteMapProvider="" runat="server" PathDirection="RootToCurrent"></asp:SiteMapPath>
+					</div>
+					<div class="PageTitle"><asp:Label runat="server" ID="lblPageTitle" Text=""></asp:Label></div>
+				</div>
+				<div class="NoticeContainer" style="display:none;">
+					<div class="Notice" id="NoticeText"></div>
+				</div>
+			</div>
+			<div class="PageContentContainer">
+				<div class="PageContent">
+
+                <asp:ContentPlaceHolder id="primaryHolder" runat="server">
+        
+                </asp:ContentPlaceHolder>
+                
+				</div>
+			</div>
+			<div class="PageFooterContainer">
+				<div class="PageFooter">
+					<div class="FooterNav">
+						<a href="https://portal.mirioncorp.com" target="_blank">mirion hub</a> | <a href="http://www.mirion.com" target="_blank">mirion.com</a> | <a href="https://www.instadose.com" target="_blank">instadose.com</a>
+					</div>
+					<div class="Copyright">
+						Internal Use Only - Proprietary <br/>
+						Copyright &copy; <% Response.Write(DateTime.Now.Year.ToString());  %> Mirion Technologies, Inc.
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="PageSubFooter"></div>
+
+    </form>
+</body>
+</html>
