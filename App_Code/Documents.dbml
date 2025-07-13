@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="IRV_DosimetryDocs_DEV" EntityNamespace="Mirion.DSD.DosimetryDocs.Entity" ContextNamespace="Mirion.DSD.DosimetryDocs" Class="DocumentsDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=dbcluster.mirioncorp.com;Initial Catalog=IRV_DosimetryDocs_DEV;User ID=web_apps" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="Mirion.DSD.Docs.DocumentsConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Applications" Member="Applications">
+    <Type Name="Application">
+      <Column Name="ApplicationID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ApplicationName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="Application_User" Member="Users" ThisKey="ApplicationID" OtherKey="ApplicationID" Type="User" />
+      <Association Name="Application_Document" Member="Documents" ThisKey="ApplicationID" OtherKey="ApplicationID" Type="Document" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DocumentTags" Member="DocumentTags">
+    <Type Name="DocumentTag">
+      <Column Name="DocumentID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Tag" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="Document_DocumentTag" Member="Document" ThisKey="DocumentID" OtherKey="DocumentID" Type="Document" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Users" Member="Users">
+    <Type Name="User">
+      <Column Name="UserID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="UserName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Account" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="ApplicationID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Active" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="CreatedDate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="CreatedBy" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="AcceptsEmails" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="Application_User" Member="Application" ThisKey="ApplicationID" OtherKey="ApplicationID" Type="Application" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Documents" Member="Documents">
+    <Type Name="Document">
+      <Column Name="DocumentID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="DocumentGuid" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="FileName" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="DocumentTitle" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="DocumentDesc" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="DocumentContent" Type="System.Data.Linq.Binary" DbType="VarBinary(MAX) NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="ApplicationID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Account" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="Category" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ContentType" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="ExpirationDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Active" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="ParentDocumentID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PublishedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="CreatedDate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="ReviewedBy" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ReviewedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="InternalNotes" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Association Name="Document_DocumentTag" Member="DocumentTags" ThisKey="DocumentID" OtherKey="DocumentID" Type="DocumentTag" />
+      <Association Name="Document_Document" Member="Documents" ThisKey="DocumentID" OtherKey="ParentDocumentID" Type="Document" />
+      <Association Name="Application_Document" Member="Application" ThisKey="ApplicationID" OtherKey="ApplicationID" Type="Application" IsForeignKey="true" />
+      <Association Name="Document_Document" Member="Document1" ThisKey="ParentDocumentID" OtherKey="DocumentID" Type="Document" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.vw_UserDocuments" Member="vw_UserDocuments">
+    <Type Name="vw_UserDocument">
+      <Column Name="UserName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ApplicationID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ApplicationName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Account" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="DocumentID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="DocumentGuid" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="FileName" Type="System.String" DbType="NVarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="DocumentTitle" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="DocumentDesc" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="Category" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="PublishedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ExpirationDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.vw_DocUserActivations" Member="vw_DocUserActivations">
+    <Type Name="vw_DocUserActivation">
+      <Column Name="ApplicationName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Account" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="Documents" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TotalUsers" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ActivatedUsers" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FirstDocumentAdded" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="LastDocumentAdded" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

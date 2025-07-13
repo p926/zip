@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="MasterBaselineUploadReportDS" targetNamespace="http://tempuri.org/MasterBaselineUploadReportDS.xsd" xmlns:mstns="http://tempuri.org/MasterBaselineUploadReportDS.xsd" xmlns="http://tempuri.org/MasterBaselineUploadReportDS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="MasterBaselineUploadReportDS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="MasterBaselineUploadReportDS" msprop:Generator_UserDSName="MasterBaselineUploadReportDS">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="MasterBaselineUploadReportDT" msprop:Generator_TableClassName="MasterBaselineUploadReportDTDataTable" msprop:Generator_TableVarName="tableMasterBaselineUploadReportDT" msprop:Generator_TablePropName="MasterBaselineUploadReportDT" msprop:Generator_RowDeletingName="MasterBaselineUploadReportDTRowDeleting" msprop:Generator_UserTableName="MasterBaselineUploadReportDT" msprop:Generator_RowChangingName="MasterBaselineUploadReportDTRowChanging" msprop:Generator_RowEvHandlerName="MasterBaselineUploadReportDTRowChangeEventHandler" msprop:Generator_RowDeletedName="MasterBaselineUploadReportDTRowDeleted" msprop:Generator_RowEvArgName="MasterBaselineUploadReportDTRowChangeEvent" msprop:Generator_RowChangedName="MasterBaselineUploadReportDTRowChanged" msprop:Generator_RowClassName="MasterBaselineUploadReportDTRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ReceiptID" msprop:Generator_ColumnVarNameInTable="columnReceiptID" msprop:Generator_ColumnPropNameInRow="ReceiptID" msprop:Generator_ColumnPropNameInTable="ReceiptIDColumn" msprop:Generator_UserColumnName="ReceiptID" type="xs:string" minOccurs="0" />
+              <xs:element name="ReceiptDate" msprop:Generator_ColumnVarNameInTable="columnReceiptDate" msprop:Generator_ColumnPropNameInRow="ReceiptDate" msprop:Generator_ColumnPropNameInTable="ReceiptDateColumn" msprop:Generator_UserColumnName="ReceiptDate" type="xs:string" minOccurs="0" />
+              <xs:element name="ShipmentID" msprop:Generator_ColumnVarNameInTable="columnShipmentID" msprop:Generator_ColumnPropNameInRow="ShipmentID" msprop:Generator_ColumnPropNameInTable="ShipmentIDColumn" msprop:Generator_UserColumnName="ShipmentID" type="xs:string" minOccurs="0" />
+              <xs:element name="PONumber" msprop:Generator_ColumnVarNameInTable="columnPONumber" msprop:Generator_ColumnPropNameInRow="PONumber" msprop:Generator_ColumnPropNameInTable="PONumberColumn" msprop:Generator_UserColumnName="PONumber" type="xs:string" minOccurs="0" />
+              <xs:element name="VendorNumber" msprop:Generator_ColumnVarNameInTable="columnVendorNumber" msprop:Generator_ColumnPropNameInRow="VendorNumber" msprop:Generator_ColumnPropNameInTable="VendorNumberColumn" msprop:Generator_UserColumnName="VendorNumber" type="xs:string" minOccurs="0" />
+              <xs:element name="NoReceived" msprop:Generator_ColumnVarNameInTable="columnNoReceived" msprop:Generator_ColumnPropNameInRow="NoReceived" msprop:Generator_ColumnPropNameInTable="NoReceivedColumn" msprop:Generator_UserColumnName="NoReceived" type="xs:short" minOccurs="0" />
+              <xs:element name="NoUpload" msprop:Generator_ColumnVarNameInTable="columnNoUpload" msprop:Generator_ColumnPropNameInRow="NoUpload" msprop:Generator_ColumnPropNameInTable="NoUploadColumn" msprop:Generator_UserColumnName="NoUpload" type="xs:short" minOccurs="0" />
+              <xs:element name="NoSkip" msprop:Generator_ColumnVarNameInTable="columnNoSkip" msprop:Generator_ColumnPropNameInRow="NoSkip" msprop:Generator_ColumnPropNameInTable="NoSkipColumn" msprop:Generator_UserColumnName="NoSkip" type="xs:short" minOccurs="0" />
+              <xs:element name="NoRFT" msprop:Generator_ColumnVarNameInTable="columnNoRFT" msprop:Generator_ColumnPropNameInRow="NoRFT" msprop:Generator_ColumnPropNameInTable="NoRFTColumn" msprop:Generator_UserColumnName="NoRFT" type="xs:short" minOccurs="0" />
+              <xs:element name="NoMM" msprop:Generator_ColumnVarNameInTable="columnNoMM" msprop:Generator_ColumnPropNameInRow="NoMM" msprop:Generator_ColumnPropNameInTable="NoMMColumn" msprop:Generator_UserColumnName="NoMM" type="xs:short" minOccurs="0" />
+              <xs:element name="NoMB" msprop:Generator_ColumnVarNameInTable="columnNoMB" msprop:Generator_ColumnPropNameInRow="NoMB" msprop:Generator_ColumnPropNameInTable="NoMBColumn" msprop:Generator_UserColumnName="NoMB" type="xs:short" minOccurs="0" />
+              <xs:element name="NoBLTM" msprop:Generator_ColumnVarNameInTable="columnNoBLTM" msprop:Generator_ColumnPropNameInRow="NoBLTM" msprop:Generator_ColumnPropNameInTable="NoBLTMColumn" msprop:Generator_UserColumnName="NoBLTM" type="xs:short" minOccurs="0" />
+              <xs:element name="NoDOR" msprop:Generator_ColumnVarNameInTable="columnNoDOR" msprop:Generator_ColumnPropNameInRow="NoDOR" msprop:Generator_ColumnPropNameInTable="NoDORColumn" msprop:Generator_UserColumnName="NoDOR" type="xs:short" minOccurs="0" />
+              <xs:element name="NoMfgDateOutofDate" msprop:Generator_ColumnVarNameInTable="columnNoMfgDateOutofDate" msprop:Generator_ColumnPropNameInRow="NoMfgDateOutofDate" msprop:Generator_ColumnPropNameInTable="NoMfgDateOutofDateColumn" msprop:Generator_UserColumnName="NoMfgDateOutofDate" type="xs:short" minOccurs="0" />
+              <xs:element name="NoColorNotInSynched" msprop:Generator_ColumnVarNameInTable="columnNoColorNotInSynched" msprop:Generator_ColumnPropNameInRow="NoColorNotInSynched" msprop:Generator_ColumnPropNameInTable="NoColorNotInSynchedColumn" msprop:Generator_UserColumnName="NoColorNotInSynched" type="xs:short" minOccurs="0" />
+              <xs:element name="NoUploadedToMAS" msprop:Generator_ColumnVarNameInTable="columnNoUploadedToMAS" msprop:Generator_ColumnPropNameInRow="NoUploadedToMAS" msprop:Generator_ColumnPropNameInTable="NoUploadedToMASColumn" msprop:Generator_UserColumnName="NoUploadedToMAS" type="xs:short" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

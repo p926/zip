@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="POReceiptReportDS" targetNamespace="http://tempuri.org/POReceiptReportDS.xsd" xmlns:mstns="http://tempuri.org/POReceiptReportDS.xsd" xmlns="http://tempuri.org/POReceiptReportDS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="IRV_InstaDevConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="IRV_InstaDevConnectionString (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.IRV_InstaDevConnectionString.ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="POReceiptReportDS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="POReceiptReportDS" msprop:Generator_DataSetName="POReceiptReportDS">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="POReceiptReportDT" msprop:Generator_TableClassName="POReceiptReportDTDataTable" msprop:Generator_TableVarName="tablePOReceiptReportDT" msprop:Generator_TablePropName="POReceiptReportDT" msprop:Generator_RowDeletingName="POReceiptReportDTRowDeleting" msprop:Generator_UserTableName="POReceiptReportDT" msprop:Generator_RowChangingName="POReceiptReportDTRowChanging" msprop:Generator_RowEvHandlerName="POReceiptReportDTRowChangeEventHandler" msprop:Generator_RowDeletedName="POReceiptReportDTRowDeleted" msprop:Generator_RowEvArgName="POReceiptReportDTRowChangeEvent" msprop:Generator_RowChangedName="POReceiptReportDTRowChanged" msprop:Generator_RowClassName="POReceiptReportDTRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ReceiptID" msprop:Generator_ColumnVarNameInTable="columnReceiptID" msprop:Generator_ColumnPropNameInRow="ReceiptID" msprop:Generator_ColumnPropNameInTable="ReceiptIDColumn" msprop:Generator_UserColumnName="ReceiptID" type="xs:string" minOccurs="0" />
+              <xs:element name="ReceiptDate" msprop:Generator_ColumnVarNameInTable="columnReceiptDate" msprop:Generator_ColumnPropNameInRow="ReceiptDate" msprop:Generator_ColumnPropNameInTable="ReceiptDateColumn" msprop:Generator_UserColumnName="ReceiptDate" type="xs:string" minOccurs="0" />
+              <xs:element name="ShipmentID" msprop:Generator_ColumnVarNameInTable="columnShipmentID" msprop:Generator_ColumnPropNameInRow="ShipmentID" msprop:Generator_ColumnPropNameInTable="ShipmentIDColumn" msprop:Generator_UserColumnName="ShipmentID" type="xs:string" minOccurs="0" />
+              <xs:element name="PONumber" msprop:Generator_ColumnVarNameInTable="columnPONumber" msprop:Generator_ColumnPropNameInRow="PONumber" msprop:Generator_ColumnPropNameInTable="PONumberColumn" msprop:Generator_UserColumnName="PONumber" type="xs:string" minOccurs="0" />
+              <xs:element name="ItemNumber" msprop:Generator_ColumnVarNameInTable="columnItemNumber" msprop:Generator_ColumnPropNameInRow="ItemNumber" msprop:Generator_ColumnPropNameInTable="ItemNumberColumn" msprop:Generator_UserColumnName="ItemNumber" type="xs:string" minOccurs="0" />
+              <xs:element name="QtyRecd" msprop:Generator_ColumnVarNameInTable="columnQtyRecd" msprop:Generator_ColumnPropNameInRow="QtyRecd" msprop:Generator_ColumnPropNameInTable="QtyRecdColumn" msprop:Generator_UserColumnName="QtyRecd" type="xs:short" minOccurs="0" />
+              <xs:element name="QtyPerPackingSlip" msprop:Generator_ColumnVarNameInTable="columnQtyPerPackingSlip" msprop:Generator_ColumnPropNameInRow="QtyPerPackingSlip" msprop:Generator_ColumnPropNameInTable="QtyPerPackingSlipColumn" msprop:Generator_UserColumnName="QtyPerPackingSlip" type="xs:short" minOccurs="0" />
+              <xs:element name="Variance" msprop:Generator_ColumnVarNameInTable="columnVariance" msprop:Generator_ColumnPropNameInRow="Variance" msprop:Generator_ColumnPropNameInTable="VarianceColumn" msprop:Generator_UserColumnName="Variance" type="xs:short" minOccurs="0" />
+              <xs:element name="VendorNumber" msprop:Generator_ColumnVarNameInTable="columnVendorNumber" msprop:Generator_ColumnPropNameInRow="VendorNumber" msprop:Generator_ColumnPropNameInTable="VendorNumberColumn" msprop:Generator_UserColumnName="VendorNumber" type="xs:string" minOccurs="0" />
+              <xs:element name="VendorName" msprop:Generator_ColumnVarNameInTable="columnVendorName" msprop:Generator_ColumnPropNameInRow="VendorName" msprop:Generator_ColumnPropNameInTable="VendorNameColumn" msprop:Generator_UserColumnName="VendorName" type="xs:string" minOccurs="0" />
+              <xs:element name="VendorAddress" msprop:Generator_ColumnVarNameInTable="columnVendorAddress" msprop:Generator_ColumnPropNameInRow="VendorAddress" msprop:Generator_ColumnPropNameInTable="VendorAddressColumn" msprop:Generator_UserColumnName="VendorAddress" type="xs:string" minOccurs="0" />
+              <xs:element name="VendorCity" msprop:Generator_ColumnVarNameInTable="columnVendorCity" msprop:Generator_ColumnPropNameInRow="VendorCity" msprop:Generator_ColumnPropNameInTable="VendorCityColumn" msprop:Generator_UserColumnName="VendorCity" type="xs:string" minOccurs="0" />
+              <xs:element name="VendorCountry" msprop:Generator_ColumnVarNameInTable="columnVendorCountry" msprop:Generator_ColumnPropNameInRow="VendorCountry" msprop:Generator_ColumnPropNameInTable="VendorCountryColumn" msprop:Generator_UserColumnName="VendorCountry" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

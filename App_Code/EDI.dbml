@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="IRV_InstaDev" EntityNamespace="Instadose.EDI.Entity" ContextNamespace="Instadose.EDI" Class="EDIDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=IRV-SSQL-DB2.mirion.local;Initial Catalog=IRV_InstaDev;User ID=web_apps" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="Instadose.Properties.Settings.InsConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="edi.Applications" Member="Applications">
+    <Type Name="Application">
+      <Column Name="ApplicationID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ApplicationName" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="ApplicationShort" Type="System.String" DbType="NVarChar(3) NOT NULL" CanBeNull="false" />
+      <Association Name="Application_PurchaseOrder" Member="PurchaseOrders" ThisKey="ApplicationID" OtherKey="ApplicationID" Type="PurchaseOrder" />
+      <Association Name="Application_ClientAccount" Member="ClientAccounts" ThisKey="ApplicationID" OtherKey="ApplicationID" Type="ClientAccount" />
+      <Association Name="Application_ErrorLog" Member="ErrorLogs" ThisKey="ApplicationID" OtherKey="ApplicationID" Type="ErrorLog" />
+      <Association Name="Application_Invoice" Member="Invoices" ThisKey="ApplicationID" OtherKey="ApplicationID" Type="Invoice" />
+      <Association Name="Application_ProductSKUs" Member="ProductSKUs" ThisKey="ApplicationID" OtherKey="ApplicationID" Type="ProductSKUs" />
+    </Type>
+  </Table>
+  <Table Name="edi.PurchaseOrders" Member="PurchaseOrders">
+    <Type Name="PurchaseOrder">
+      <Column Name="PurchaseOrderID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TxnSetPurposeCode" Type="System.String" DbType="NVarChar(2) NOT NULL" CanBeNull="false" />
+      <Column Name="POTypeCode" Type="System.String" DbType="NVarChar(2) NOT NULL" CanBeNull="false" />
+      <Column Name="PONumber" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="PORequestDate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="PODescription" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="EntityIDCode" Type="System.String" DbType="NVarChar(3)" CanBeNull="true" />
+      <Column Name="CustomerName" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="CustomerIDQualifier" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="CustomerIDCode" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="AddlCustomerName1" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="AddlCustomerName2" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="Address1" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="Address2" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="City" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="StateProvinceCode" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="PostalCode" Type="System.String" DbType="NVarChar(15)" CanBeNull="true" />
+      <Column Name="SummaryLineItems" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SummaryHashTotal" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TotalSegments" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TransactionSetCtlNumber" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="AcknowledgedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Notes" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="HasIssues" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="ReviewStatusID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ReviewedBy" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="ReviewedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Account" Type="System.String" DbType="NVarChar(8)" CanBeNull="true" />
+      <Column Name="ApplicationID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DealerID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PORequestNumber" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Association Name="PurchaseOrder_PurchaseOrderAck" Member="PurchaseOrderAcks" ThisKey="PurchaseOrderID" OtherKey="PurchaseOrderID" Type="PurchaseOrderAck" />
+      <Association Name="PurchaseOrder_PurchaseOrderContact" Member="PurchaseOrderContacts" ThisKey="PurchaseOrderID" OtherKey="EDIPurchaseOrderID" Type="PurchaseOrderContact" />
+      <Association Name="PurchaseOrder_PurchaseOrderDetail" Member="PurchaseOrderDetails" ThisKey="PurchaseOrderID" OtherKey="EDIPOHeaderID" Type="PurchaseOrderDetail" />
+      <Association Name="PurchaseOrder_PurchaseOrderRef" Member="PurchaseOrderRefs" ThisKey="PurchaseOrderID" OtherKey="EDIPurchaseOrderID" Type="PurchaseOrderRef" />
+      <Association Name="Application_PurchaseOrder" Member="Application" ThisKey="ApplicationID" OtherKey="ApplicationID" Type="Application" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="edi.ClientAccounts" Member="ClientAccounts">
+    <Type Name="ClientAccount">
+      <Column Name="ClientID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Account" Type="System.String" DbType="NVarChar(8) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ApplicationID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Active" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="Application_ClientAccount" Member="Application" ThisKey="ApplicationID" OtherKey="ApplicationID" Type="Application" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="edi.Clients" Member="Clients">
+    <Type Name="Client">
+      <Column Name="ClientID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ClientName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="FtpAddress" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="FtpPort" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FtpUserName" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="FtpPassword" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="InboundPath" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="OutboundPath" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="EDIIdentifer" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="Active" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="Client_ProductSKUs" Member="ProductSKUs" ThisKey="ClientID" OtherKey="ClientID" Type="ProductSKUs" />
+    </Type>
+  </Table>
+  <Table Name="edi.ErrorLogs" Member="ErrorLogs">
+    <Type Name="ErrorLog">
+      <Column Name="ErrorLogID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ApplicationID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Account" Type="System.String" DbType="NVarChar(8) NOT NULL" CanBeNull="false" />
+      <Column Name="ErrorDate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="ErrorMessage" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="ApplicationDesc" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Association Name="Application_ErrorLog" Member="Application" ThisKey="ApplicationID" OtherKey="ApplicationID" Type="Application" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="edi.InvoiceCarrierDetails" Member="InvoiceCarrierDetails">
+    <Type Name="InvoiceCarrierDetail">
+      <Column Name="InvoiceCarrierID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="InvoiceID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CarrierAlphaCode" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="CarrierRouting" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="CarrierTrackingNumber" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="Invoice_InvoiceCarrierDetail" Member="Invoice" ThisKey="InvoiceID" OtherKey="InvoiceID" Type="Invoice" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="edi.InvoiceCharges" Member="InvoiceCharges">
+    <Type Name="InvoiceCharge">
+      <Column Name="InvoiceChargeID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="InvoiceID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ChargeIndicator" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
+      <Column Name="ChargeCode" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="ChargeAmount" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="InvoiceChargeDesc" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Association Name="Invoice_InvoiceCharge" Member="Invoice" ThisKey="InvoiceID" OtherKey="InvoiceID" Type="Invoice" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="edi.InvoiceDetails" Member="InvoiceDetails">
+    <Type Name="InvoiceDetail">
+      <Column Name="InvoiceDetailID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="InvoiceID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Quantity" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="UnitMeasurement" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="UnitPrice" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="ProductQualifier" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="VendorProductCode" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="BuyersCatalogQualifier" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="BuyersProductCode" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="TaxTypeCode" Type="System.String" DbType="NVarChar(2)" CanBeNull="true" />
+      <Column Name="TaxAmount" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ItemDescriptionType" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="ItemDescription" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="ContractStartDate" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="ContractEndDate" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Association Name="Invoice_InvoiceDetail" Member="Invoice" ThisKey="InvoiceID" OtherKey="InvoiceID" Type="Invoice" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="edi.Invoices" Member="Invoices">
+    <Type Name="Invoice">
+      <Column Name="InvoiceID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="InvoiceDate" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="InvoiceNumber" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="OrderID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Account" Type="System.String" DbType="NVarChar(8) NOT NULL" CanBeNull="false" />
+      <Column Name="ApplicationID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DealerID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PODate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="PONumber" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="TxnTypeCode" Type="System.String" DbType="NVarChar(2) NOT NULL" CanBeNull="false" />
+      <Column Name="InvoiceMessage" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="BillingEntityIDCode" Type="System.String" DbType="NVarChar(3)" CanBeNull="true" />
+      <Column Name="BillingCompanyName" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="BillingAddress1" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="BillingAddress2" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="BillingAddress3" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="BillingAddress4" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="BillingStateProvinceCode" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="BillingPostalCode" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="BillingCountryCode" Type="System.String" DbType="NVarChar(3)" CanBeNull="true" />
+      <Column Name="RemitEntityIDCode" Type="System.String" DbType="NVarChar(3)" CanBeNull="true" />
+      <Column Name="RemitCompanyName" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="ShippingEntityIDCode" Type="System.String" DbType="NVarChar(3)" CanBeNull="true" />
+      <Column Name="ShippingCompanyName" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="ShippingAddress1" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="ShippingAddress2" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="ShippingAddress3" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="ShippingAddress4" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="ShippingStateProvinceCode" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="ShippingPostalCode" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="ShippingCountryCode" Type="System.String" DbType="NVarChar(3)" CanBeNull="true" />
+      <Column Name="InvoiceTermID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="InvoiceTermDateCodeID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="NetDueDate" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="TotalDiscountAmount" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="TermsDescription" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="TotalInvoiceAmount" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="SummaryLineItems" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TotalSegments" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TransactionSetCtlNumber" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TransferDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="TransferErrorMessage" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="TransferSuccess" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="CreatedDate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Association Name="Invoice_InvoiceCarrierDetail" Member="InvoiceCarrierDetails" ThisKey="InvoiceID" OtherKey="InvoiceID" Type="InvoiceCarrierDetail" />
+      <Association Name="Invoice_InvoiceCharge" Member="InvoiceCharges" ThisKey="InvoiceID" OtherKey="InvoiceID" Type="InvoiceCharge" />
+      <Association Name="Invoice_InvoiceDetail" Member="InvoiceDetails" ThisKey="InvoiceID" OtherKey="InvoiceID" Type="InvoiceDetail" />
+      <Association Name="Application_Invoice" Member="Application" ThisKey="ApplicationID" OtherKey="ApplicationID" Type="Application" IsForeignKey="true" />
+      <Association Name="InvoiceTermDateCode_Invoice" Member="InvoiceTermDateCode" ThisKey="InvoiceTermDateCodeID" OtherKey="InvoiceTermDateCodeID" Type="InvoiceTermDateCode" IsForeignKey="true" />
+      <Association Name="InvoiceTerm_Invoice" Member="InvoiceTerm" ThisKey="InvoiceTermID" OtherKey="InvoiceTermID" Type="InvoiceTerm" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="edi.InvoiceTermDateCodes" Member="InvoiceTermDateCodes">
+    <Type Name="InvoiceTermDateCode">
+      <Column Name="InvoiceTermDateCodeID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TermsBasisCode" Type="System.String" DbType="NVarChar(2) NOT NULL" CanBeNull="false" />
+      <Column Name="TermsBasisDesc" Type="System.String" DbType="NVarChar(200) NOT NULL" CanBeNull="false" />
+      <Association Name="InvoiceTermDateCode_Invoice" Member="Invoices" ThisKey="InvoiceTermDateCodeID" OtherKey="InvoiceTermDateCodeID" Type="Invoice" />
+    </Type>
+  </Table>
+  <Table Name="edi.InvoiceTerms" Member="InvoiceTerms">
+    <Type Name="InvoiceTerm">
+      <Column Name="InvoiceTermID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TermsTypeCode" Type="System.String" DbType="NVarChar(2) NOT NULL" CanBeNull="false" />
+      <Column Name="PaymentTermsDesc" Type="System.String" DbType="NVarChar(200) NOT NULL" CanBeNull="false" />
+      <Association Name="InvoiceTerm_Invoice" Member="Invoices" ThisKey="InvoiceTermID" OtherKey="InvoiceTermID" Type="Invoice" />
+    </Type>
+  </Table>
+  <Table Name="edi.ProductSKUs" Member="ProductSKUs">
+    <Type Name="ProductSKUs">
+      <Column Name="ProductSKUID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ClientID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ClientSKU" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="SKU" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="SKUDescription" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ApplicationID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="UnixProductCode" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Association Name="ProductSKUs_PurchaseOrderDetail" Member="PurchaseOrderDetails" ThisKey="ProductSKUID" OtherKey="ProductSKUID" Type="PurchaseOrderDetail" />
+      <Association Name="Application_ProductSKUs" Member="Application" ThisKey="ApplicationID" OtherKey="ApplicationID" Type="Application" IsForeignKey="true" />
+      <Association Name="Client_ProductSKUs" Member="Client" ThisKey="ClientID" OtherKey="ClientID" Type="Client" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="edi.PurchaseOrderAckDetails" Member="PurchaseOrderAckDetails">
+    <Type Name="PurchaseOrderAckDetail">
+      <Column Name="POAckDetailID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PurchaseOrderAckID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="POAckDetailLineNum" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Quantity" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="UnitMeasurement" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="UnitPrice" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ProductQualifier" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="VendorProductCode" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="BuyersCatalogQualifier" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="HSIProductCode" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="LineItemStatusCode" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="AckQuantity" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AckDateQualifier" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="ScheduledShipDate" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Association Name="PurchaseOrderAck_PurchaseOrderAckDetail" Member="PurchaseOrderAck" ThisKey="PurchaseOrderAckID" OtherKey="PurchaseOrderAckID" Type="PurchaseOrderAck" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="edi.PurchaseOrderAcks" Member="PurchaseOrderAcks">
+    <Type Name="PurchaseOrderAck">
+      <Column Name="PurchaseOrderAckID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PurchaseOrderID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TxnSetPurposeCode" Type="System.String" DbType="NVarChar(2) NOT NULL" CanBeNull="false" />
+      <Column Name="AckTypeCode" Type="System.String" DbType="NVarChar(2) NOT NULL" CanBeNull="false" />
+      <Column Name="PONumber" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="PORequestDate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="POAckRefNumber" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="AcknowledgementDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="EntityIDCode" Type="System.String" DbType="NVarChar(3)" CanBeNull="true" />
+      <Column Name="CustomerName" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="CustomerIDQualifier" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="CustomerIDCode" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="SummaryLineItems" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TotalSegments" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TransactionSetCtlNumber" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="TransferErrorMessage" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="TransferDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Account" Type="System.String" DbType="NVarChar(8)" CanBeNull="true" />
+      <Column Name="AppliactionID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DealerID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="PurchaseOrderAck_PurchaseOrderAckDetail" Member="PurchaseOrderAckDetails" ThisKey="PurchaseOrderAckID" OtherKey="PurchaseOrderAckID" Type="PurchaseOrderAckDetail" />
+      <Association Name="PurchaseOrder_PurchaseOrderAck" Member="PurchaseOrder" ThisKey="PurchaseOrderID" OtherKey="PurchaseOrderID" Type="PurchaseOrder" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="edi.PurchaseOrderContacts" Member="PurchaseOrderContacts">
+    <Type Name="PurchaseOrderContact">
+      <Column Name="PurchaseOrderContactID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="EDIPurchaseOrderID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ContactFunctionCode" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="CommNumberQualifier" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="CommNumber" Type="System.String" DbType="NVarChar(24)" CanBeNull="true" />
+      <Association Name="PurchaseOrder_PurchaseOrderContact" Member="PurchaseOrder" ThisKey="EDIPurchaseOrderID" OtherKey="PurchaseOrderID" Type="PurchaseOrder" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="edi.PurchaseOrderDetails" Member="PurchaseOrderDetails">
+    <Type Name="PurchaseOrderDetail">
+      <Column Name="PODetailID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="EDIPOHeaderID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PODetailLineNum" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Quantity" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="UnitMeasurement" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="UnitPrice" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ProductQualifier" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="VendorProductCode" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="BuyersCatalogQualifier" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="HSIProductCode" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="ItemDescription" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="ProductSKUID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PORequestNumber" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ApprovalErrorCode" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="PurchaseOrder_PurchaseOrderDetail" Member="PurchaseOrder" ThisKey="EDIPOHeaderID" OtherKey="PurchaseOrderID" Type="PurchaseOrder" IsForeignKey="true" />
+      <Association Name="ProductSKUs_PurchaseOrderDetail" Member="ProductSKUs" ThisKey="ProductSKUID" OtherKey="ProductSKUID" Type="ProductSKUs" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="edi.PurchaseOrderRefs" Member="PurchaseOrderRefs">
+    <Type Name="PurchaseOrderRef">
+      <Column Name="PurchaseOrderRefID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="EDIPurchaseOrderID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="IDQualifier" Type="System.String" DbType="NChar(2) NOT NULL" CanBeNull="false" />
+      <Column Name="ReferenceID" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="PurchaseOrder_PurchaseOrderRef" Member="PurchaseOrder" ThisKey="EDIPurchaseOrderID" OtherKey="PurchaseOrderID" Type="PurchaseOrder" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>
