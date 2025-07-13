@@ -9,59 +9,50 @@
 
 
 
-public partial class InstaDose_Admin_TechOps_Default {
+public partial class InstaDose_Finance_CreditMemoSearch {
     
     /// <summary>
-    /// liAccountRenewal control.
+    /// upnlSearchTable control.
     /// </summary>
     /// <remarks>
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::System.Web.UI.HtmlControls.HtmlGenericControl liAccountRenewal;
+    protected global::System.Web.UI.UpdatePanel upnlSearchTable;
     
     /// <summary>
-    /// liBatchProcessing control.
+    /// errors control.
     /// </summary>
     /// <remarks>
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::System.Web.UI.HtmlControls.HtmlGenericControl liBatchProcessing;
+    protected global::System.Web.UI.HtmlControls.HtmlGenericControl errors;
     
     /// <summary>
-    /// liAXInvoiceCreditRebill control.
+    /// errorMsg control.
     /// </summary>
     /// <remarks>
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::System.Web.UI.HtmlControls.HtmlGenericControl liAXInvoiceCreditRebill;
+    protected global::System.Web.UI.HtmlControls.HtmlGenericControl errorMsg;
     
     /// <summary>
-    /// liAXOrbitalPayment control.
+    /// txtAccountNumber control.
     /// </summary>
     /// <remarks>
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::System.Web.UI.HtmlControls.HtmlGenericControl liAXOrbitalPayment;
+    protected global::System.Web.UI.WebControls.TextBox txtAccountNumber;
     
     /// <summary>
-    /// liOMockProcessCC control.
+    /// btnGo control.
     /// </summary>
     /// <remarks>
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::System.Web.UI.HtmlControls.HtmlGenericControl liOMockProcessCC;
-    
-    /// <summary>
-    /// liGenerateReport control.
-    /// </summary>
-    /// <remarks>
-    /// Auto-generated field.
-    /// To modify move field declaration from designer file to code-behind file.
-    /// </remarks>
-    protected global::System.Web.UI.HtmlControls.HtmlGenericControl liGenerateReport;
+    protected global::System.Web.UI.WebControls.Button btnGo;
 }
