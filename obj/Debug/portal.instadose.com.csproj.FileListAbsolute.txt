@@ -1,0 +1,468 @@
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\css\dsd-default\controls.css
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\ApplicationInsights.config
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\App_Code\MasterBaselineUpload.cs
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\App_Code\MasterBaselineUpload2.cs
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\App_Code\MasterBaselineUpload3.cs
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\App_Code\MasterBaselineUploadID2New.cs
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\App_Code\MasterBaselineUploadIDPlus.cs
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CustomerService\CSPoRequest_ICCare.rpt
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CustomerService\CSPoRequest_ICCareDealer.rpt
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CustomerService\CSPoRequest_ICCareDealer2.rpt
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CustomerService\CSPoRequest_ICCareDealer3.rpt
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CustomerService\CSPoRequest_ICCareDealerLoc.rpt
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CustomerService\CSPoRequest_ICCareDealerLoc3.rpt
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Finance\PaymentReceipt.rpt
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Finance\Utilities\PrintInstadoseLogo.rpt
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Finance\Utilities\PrintUserPasswordLabel_2.rpt
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\InformationFinder\Details\RptRMALetter.rpt
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\InformationFinder\Details\RptRMALetter_ICCare.rpt
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\InformationFinder\GenerateOrderAck.rpt
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\InformationFinder\GenerateProformaInvoice.rpt
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Manufacturing\ShippingPack.rpt
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Manufacturing\ShippingPick.rpt
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Shipping\POReceiptReport.rpt
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Shipping\ReleaseToWIPReport.rpt
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Shipping\YellowLabel.rpt
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\TechOps\MasterBaselineUploadReport.rpt
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\TechOps\MasterBaselineUploadReport2.rpt
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\TechOps\RequestInstadoseTransferReport.rpt
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Templates\Instadose_Invoice.rpt
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Finance\SummaryInvStatement_Mirion.rpt
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Finance\SummaryInvStatement_ICCare.rpt
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\TechOps\FactorsHistoryLog.rpt
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CustomerService\CSPoRequest_ICCare.cs
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CustomerService\CSPoRequest_ICCareDealer.cs
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CustomerService\CSPoRequest_ICCareDealer2.cs
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CustomerService\CSPoRequest_ICCareDealer3.cs
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CustomerService\CSPoRequest_ICCareDealerLoc.cs
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CustomerService\CSPoRequest_ICCareDealerLoc3.cs
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Finance\PaymentReceipt.cs
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Finance\SummaryInvStatement_ICCare.cs
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Finance\SummaryInvStatement_Mirion.cs
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Finance\Utilities\PrintInstadoseLogo.cs
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Finance\Utilities\PrintUserPasswordLabel_2.cs
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\InformationFinder\Details\RptRMALetter.cs
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\InformationFinder\Details\RptRMALetter_ICCare.cs
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\InformationFinder\GenerateOrderAck.cs
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\InformationFinder\GenerateProformaInvoice.cs
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Manufacturing\ShippingPack.cs
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Manufacturing\ShippingPick.cs
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Shipping\POReceiptReport.cs
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Shipping\ReleaseToWIPReport.cs
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Shipping\YellowLabel.cs
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\TechOps\FactorsHistoryLog.cs
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\TechOps\MasterBaselineUploadReport.cs
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\TechOps\MasterBaselineUploadReport2.cs
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\TechOps\RequestInstadoseTransferReport.cs
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Templates\Instadose_Invoice.cs
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\portal_instadose_com_v3.dll.config
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\portal_instadose_com_v3.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\portal_instadose_com_v3.pdb
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\AjaxControlToolkit.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\AXData.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\BouncyCastle.Crypto.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CrystalDecisions.CrystalReports.Design.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CrystalDecisions.CrystalReports.Engine.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CrystalDecisions.ReportSource.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CrystalDecisions.Shared.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CrystalDecisions.VSDesigner.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CrystalDecisions.Web.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\DotNet.Highcharts.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\EncodeStr.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\EntityFramework.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\EntityFramework.SqlServer.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\evohtmltopdf.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\ExtendedControls.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Glimpse.Ado.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Glimpse.Core.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Glimpse.EF6.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Instadose.API.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Instadose.Device.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Instadose.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Instadose.Integration.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Instadose.Processing.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Instadose.Security.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Instadose_Portal_Returns.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\itextsharp.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\log4net.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Microsoft.ApplicationInsights.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Mirion.DSD.Consumer.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Mirion.DSD.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Mirion.DSD.GDS.API.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Mirion.DSD.Packaging.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Mirion.DSD.Security.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Mirion.DSD.Utilities.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Mirion.DSD.Web.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Newtonsoft.Json.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\OnTimeApi.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Telerik.Web.Design.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Telerik.Web.UI.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Telerik.Web.UI.Skins.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Paymentech.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\System.Memory.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Microsoft.VisualStudio.Shell.Interop.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Microsoft.VisualStudio.OLE.Interop.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CRVsPackageLib.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Microsoft.VisualStudio.TemplateWizardInterface.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\EnvDTE.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CrystalDecisions.Windows.Forms.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\VSLangProj.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\VsWebSite.Interop.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\EnvDTE80.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\System.Numerics.Vectors.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\System.Buffers.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\stdole.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Microsoft.VisualStudio.ProjectAggregator.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Microsoft.VisualStudio.VSHelp.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\FlashControlV71.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\ShockwaveFlashObjects.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Microsoft.MSXML.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Instadose.API.pdb
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Instadose.API.dll.config
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Instadose.Device.pdb
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Instadose.Device.dll.config
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Instadose.Integration.pdb
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Instadose.Integration.dll.config
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Instadose.Processing.pdb
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Instadose.Processing.dll.config
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Instadose.Security.pdb
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Instadose.Security.dll.config
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Instadose.pdb
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Instadose.dll.config
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Mirion.DSD.GDS.API.pdb
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Mirion.DSD.GDS.API.dll.config
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Mirion.DSD.Packaging.pdb
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Mirion.DSD.Security.pdb
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Mirion.DSD.Utilities.pdb
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Mirion.DSD.Utilities.dll.config
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Mirion.DSD.Web.pdb
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\EntityFramework.xml
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\EntityFramework.SqlServer.xml
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\evohtmltopdf.xml
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\log4net.xml
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Mirion.DSD.pdb
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Newtonsoft.Json.xml
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Microsoft.VisualStudio.TemplateWizardInterface.xml
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\evointernal.dat
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\obj\Debug\portal.instadose.com.csproj.AssemblyReference.cache
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\obj\Debug\portal.instadose.com.csproj.CoreCompileInputs.cache
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\obj\Debug\portal.instadose.com.csproj.CopyComplete
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\obj\Debug\portal_instadose_com_v3.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\obj\Debug\portal_instadose_com_v3.pdb
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\System.Net.Http.Formatting.dll
+D:\Dev\Source\Repos\merge-websites\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\System.Net.Http.Formatting.xml
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\obj\Debug\portal.instadose.com.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\obj\Debug\portal_instadose_com_v3.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\obj\Debug\portal_instadose_com_v3.pdb
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\css\dsd-default\controls.css
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\ApplicationInsights.config
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\App_Code\MasterBaselineUpload.cs
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\App_Code\MasterBaselineUpload2.cs
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\App_Code\MasterBaselineUpload3.cs
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\App_Code\MasterBaselineUploadID2New.cs
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\App_Code\MasterBaselineUploadIDPlus.cs
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CustomerService\CSPoRequest_ICCare.rpt
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CustomerService\CSPoRequest_ICCareDealer.rpt
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CustomerService\CSPoRequest_ICCareDealer2.rpt
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CustomerService\CSPoRequest_ICCareDealer3.rpt
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CustomerService\CSPoRequest_ICCareDealerLoc.rpt
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CustomerService\CSPoRequest_ICCareDealerLoc3.rpt
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Finance\PaymentReceipt.rpt
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Finance\Utilities\PrintInstadoseLogo.rpt
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Finance\Utilities\PrintUserPasswordLabel_2.rpt
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\InformationFinder\Details\RptRMALetter.rpt
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\InformationFinder\Details\RptRMALetter_ICCare.rpt
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\InformationFinder\GenerateOrderAck.rpt
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\InformationFinder\GenerateProformaInvoice.rpt
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Manufacturing\ShippingPack.rpt
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Manufacturing\ShippingPick.rpt
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Shipping\POReceiptReport.rpt
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Shipping\ReleaseToWIPReport.rpt
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Shipping\YellowLabel.rpt
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\TechOps\MasterBaselineUploadReport.rpt
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\TechOps\MasterBaselineUploadReport2.rpt
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\TechOps\RequestInstadoseTransferReport.rpt
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Templates\Instadose_Invoice.rpt
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Finance\SummaryInvStatement_Mirion.rpt
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Finance\SummaryInvStatement_ICCare.rpt
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\TechOps\FactorsHistoryLog.rpt
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CustomerService\CSPoRequest_ICCare.cs
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CustomerService\CSPoRequest_ICCareDealer.cs
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CustomerService\CSPoRequest_ICCareDealer2.cs
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CustomerService\CSPoRequest_ICCareDealer3.cs
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CustomerService\CSPoRequest_ICCareDealerLoc.cs
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CustomerService\CSPoRequest_ICCareDealerLoc3.cs
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Finance\PaymentReceipt.cs
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Finance\SummaryInvStatement_ICCare.cs
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Finance\SummaryInvStatement_Mirion.cs
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Finance\Utilities\PrintInstadoseLogo.cs
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Finance\Utilities\PrintUserPasswordLabel_2.cs
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\InformationFinder\Details\RptRMALetter.cs
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\InformationFinder\Details\RptRMALetter_ICCare.cs
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\InformationFinder\GenerateOrderAck.cs
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\InformationFinder\GenerateProformaInvoice.cs
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Manufacturing\ShippingPack.cs
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Manufacturing\ShippingPick.cs
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Shipping\POReceiptReport.cs
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Shipping\ReleaseToWIPReport.cs
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Shipping\YellowLabel.cs
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\TechOps\FactorsHistoryLog.cs
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\TechOps\MasterBaselineUploadReport.cs
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\TechOps\MasterBaselineUploadReport2.cs
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\TechOps\RequestInstadoseTransferReport.cs
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Templates\Instadose_Invoice.cs
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\portal_instadose_com_v3.dll.config
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\portal_instadose_com_v3.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\portal_instadose_com_v3.pdb
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\AjaxControlToolkit.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\AXData.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\BouncyCastle.Crypto.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CrystalDecisions.CrystalReports.Design.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CrystalDecisions.ReportSource.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CrystalDecisions.Shared.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CrystalDecisions.VSDesigner.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CrystalDecisions.Web.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\DotNet.Highcharts.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\EncodeStr.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\EntityFramework.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\EntityFramework.SqlServer.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\evohtmltopdf.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\ExtendedControls.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Glimpse.Ado.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Glimpse.Core.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Glimpse.EF6.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Instadose.API.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Instadose.Device.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Instadose.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Instadose.Integration.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Instadose.Processing.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Instadose.Security.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Instadose_Portal_Returns.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\itextsharp.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\log4net.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Mirion.DSD.Consumer.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Mirion.DSD.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Mirion.DSD.GDS.API.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Mirion.DSD.Packaging.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Mirion.DSD.Security.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Mirion.DSD.Utilities.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Mirion.DSD.Web.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Newtonsoft.Json.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\OnTimeApi.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Telerik.Web.Design.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Telerik.Web.UI.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Telerik.Web.UI.Skins.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Paymentech.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\System.Memory.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CRVsPackageLib.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Microsoft.VisualStudio.TemplateWizardInterface.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\EnvDTE.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CrystalDecisions.Windows.Forms.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\VSLangProj.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\VsWebSite.Interop.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\EnvDTE80.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\System.Numerics.Vectors.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\System.Buffers.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\stdole.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Microsoft.VisualStudio.ProjectAggregator.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Microsoft.VisualStudio.VSHelp.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\FlashControlV71.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\ShockwaveFlashObjects.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Microsoft.MSXML.dll
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Instadose.API.dll.config
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Instadose.Integration.dll.config
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Instadose.dll.config
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Mirion.DSD.GDS.API.dll.config
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\EntityFramework.xml
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\EntityFramework.SqlServer.xml
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\evohtmltopdf.xml
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\log4net.xml
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Newtonsoft.Json.xml
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Microsoft.VisualStudio.TemplateWizardInterface.xml
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\evointernal.dat
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\obj\Debug\portal.instadose.com.csproj.CopyComplete
+C:\Users\Acer\Desktop\New folder\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\obj\Debug\portal.instadose.com.csproj.AssemblyReference.cache
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\css\dsd-default\controls.css
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\ApplicationInsights.config
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\App_Code\MasterBaselineUpload.cs
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\App_Code\MasterBaselineUpload2.cs
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\App_Code\MasterBaselineUpload3.cs
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\App_Code\MasterBaselineUploadID2New.cs
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\App_Code\MasterBaselineUploadIDPlus.cs
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CustomerService\CSPoRequest_ICCare.rpt
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CustomerService\CSPoRequest_ICCareDealer.rpt
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CustomerService\CSPoRequest_ICCareDealer2.rpt
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CustomerService\CSPoRequest_ICCareDealer3.rpt
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CustomerService\CSPoRequest_ICCareDealerLoc.rpt
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CustomerService\CSPoRequest_ICCareDealerLoc3.rpt
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Finance\PaymentReceipt.rpt
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Finance\Utilities\PrintInstadoseLogo.rpt
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Finance\Utilities\PrintUserPasswordLabel_2.rpt
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\InformationFinder\Details\RptRMALetter.rpt
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\InformationFinder\Details\RptRMALetter_ICCare.rpt
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\InformationFinder\GenerateOrderAck.rpt
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\InformationFinder\GenerateProformaInvoice.rpt
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Manufacturing\ShippingPack.rpt
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Manufacturing\ShippingPick.rpt
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Shipping\POReceiptReport.rpt
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Shipping\ReleaseToWIPReport.rpt
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Shipping\YellowLabel.rpt
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\TechOps\MasterBaselineUploadReport.rpt
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\TechOps\MasterBaselineUploadReport2.rpt
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\TechOps\RequestInstadoseTransferReport.rpt
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Templates\Instadose_Invoice.rpt
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Finance\SummaryInvStatement_Mirion.rpt
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Finance\SummaryInvStatement_ICCare.rpt
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\TechOps\FactorsHistoryLog.rpt
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CustomerService\CSPoRequest_ICCare.cs
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CustomerService\CSPoRequest_ICCareDealer.cs
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CustomerService\CSPoRequest_ICCareDealer2.cs
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CustomerService\CSPoRequest_ICCareDealer3.cs
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CustomerService\CSPoRequest_ICCareDealerLoc.cs
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CustomerService\CSPoRequest_ICCareDealerLoc3.cs
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Finance\PaymentReceipt.cs
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Finance\SummaryInvStatement_ICCare.cs
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Finance\SummaryInvStatement_Mirion.cs
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Finance\Utilities\PrintInstadoseLogo.cs
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Finance\Utilities\PrintUserPasswordLabel_2.cs
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\InformationFinder\Details\RptRMALetter.cs
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\InformationFinder\Details\RptRMALetter_ICCare.cs
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\InformationFinder\GenerateOrderAck.cs
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\InformationFinder\GenerateProformaInvoice.cs
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Manufacturing\ShippingPack.cs
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Manufacturing\ShippingPick.cs
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Shipping\POReceiptReport.cs
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Shipping\ReleaseToWIPReport.cs
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Shipping\YellowLabel.cs
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\TechOps\FactorsHistoryLog.cs
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\TechOps\MasterBaselineUploadReport.cs
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\TechOps\MasterBaselineUploadReport2.cs
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\TechOps\RequestInstadoseTransferReport.cs
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Templates\Instadose_Invoice.cs
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\portal_instadose_com_v3.dll.config
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\portal_instadose_com_v3.dll
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\portal_instadose_com_v3.pdb
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\AjaxControlToolkit.dll
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\AXData.dll
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\BouncyCastle.Crypto.dll
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CrystalDecisions.CrystalReports.Design.dll
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CrystalDecisions.CrystalReports.Engine.dll
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CrystalDecisions.ReportSource.dll
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CrystalDecisions.Shared.dll
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CrystalDecisions.VSDesigner.dll
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CrystalDecisions.Web.dll
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\DotNet.Highcharts.dll
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\EncodeStr.dll
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\EntityFramework.dll
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\EntityFramework.SqlServer.dll
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\evohtmltopdf.dll
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\ExtendedControls.dll
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Glimpse.Ado.dll
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Glimpse.Core.dll
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Glimpse.EF6.dll
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Instadose.API.dll
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Instadose.Device.dll
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Instadose.dll
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Instadose.Integration.dll
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Instadose.Processing.dll
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Instadose.Security.dll
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Instadose_Portal_Returns.dll
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\itextsharp.dll
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\log4net.dll
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Microsoft.ApplicationInsights.dll
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Mirion.DSD.Consumer.dll
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Mirion.DSD.dll
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Mirion.DSD.GDS.API.dll
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Mirion.DSD.Packaging.dll
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Mirion.DSD.Security.dll
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Mirion.DSD.Utilities.dll
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Mirion.DSD.Web.dll
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Newtonsoft.Json.dll
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\OnTimeApi.dll
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Telerik.Web.Design.dll
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Telerik.Web.UI.dll
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Telerik.Web.UI.Skins.dll
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Paymentech.dll
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\System.Memory.dll
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Microsoft.VisualStudio.Shell.Interop.dll
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Microsoft.VisualStudio.OLE.Interop.dll
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CRVsPackageLib.dll
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Microsoft.VisualStudio.TemplateWizardInterface.dll
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\EnvDTE.dll
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\CrystalDecisions.Windows.Forms.dll
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Microsoft.VisualStudio.Designer.Interfaces.dll
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\VSLangProj.dll
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\VsWebSite.Interop.dll
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\EnvDTE80.dll
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\System.Numerics.Vectors.dll
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\System.Buffers.dll
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\stdole.dll
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\FlashControlV71.dll
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\ShockwaveFlashObjects.dll
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Instadose.dll.config
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Instadose.API.dll.config
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Instadose.Integration.dll.config
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\EntityFramework.xml
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\EntityFramework.SqlServer.xml
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\evohtmltopdf.xml
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\log4net.xml
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Mirion.DSD.GDS.API.dll.config
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Newtonsoft.Json.xml
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Microsoft.VisualStudio.TemplateWizardInterface.xml
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\Microsoft.VisualStudio.Designer.Interfaces.xml
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\bin\evointernal.dat
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\obj\Debug\portal.instadose.com.csproj.AssemblyReference.cache
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\obj\Debug\portal.instadose.com.csproj.CoreCompileInputs.cache
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\obj\Debug\portal.instadose.com.csproj.CopyComplete
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\obj\Debug\portal_instadose_com_v3.dll
+D:\Instadose\portal.instadose.com 2\portal.instadose.com\portal_instadose_com_v3\portal_instadose_com_v3\obj\Debug\portal_instadose_com_v3.pdb

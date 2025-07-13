@@ -1,0 +1,147 @@
+﻿@import url(https://fonts.googleapis.com/css?family=PT+Sans|Oxygen);
+body, #content, #container {
+   width: 100%;
+   margin: 0;
+   float: none;
+   background: #fff url(none);
+}
+
+body {
+    font-size: 12pt;
+    font-family: 'PT Sans', sans-serif;
+    color: #000000;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Oxygen', Helvetica, Arial, sans-serif;
+    color: #000000;
+}
+h1 { font-size: 250%; }
+h2 { font-size: 175%; }
+h3 { font-size: 135%; }
+h4 { font-size: 100%; font-variant: small-caps; }
+h5 { font-size: 100%; }
+h6 { font-size: 90%; font-style: italic; }
+.office-info {
+    font-size:14pt;
+}
+.avoid-page-break {
+    border: 2px solid black;
+    page-break-inside: avoid;
+}
+
+.page-break {
+    page-break-after:always;
+}
+
+.page-header {
+    font-size: 12pt;
+    border-bottom: 2px solid gray;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.page-bottom {
+    position: absolute;
+    bottom: 0;
+}
+.notice {
+    margin-top: 3em;
+    background-color: lightyellow;
+    padding: 1em;
+    font-size: 12pt;
+    width: 100%;
+}
+.notice p,
+.notice h4,
+.notice ul {
+    margin: 0;
+}
+.clear {
+    clear:both;
+    float: none;
+}
+
+table {
+    width: 100%;
+    border: 1px solid black;
+}
+
+table td, table th {
+    font-size: 12pt;
+    padding: 4px;
+    border: 1px solid black;
+}
+body {
+    counter-reset: page_number;
+}
+
+.page-number:after {
+    counter-increment: page_number;
+    content: counter(page_number);
+}
+.align-right {
+    text-align: right;
+}
+.align-center {
+    text-align: center;
+}
+
+table th {
+    background-color: aliceblue;
+}
+
+.small-table,
+.medium-table {
+    border: 0;
+    margin-bottom: 20px;
+}
+
+.small-table td {
+    padding: 1px 5px 1px 5px;
+    font-size: 12pt;
+    border: 0;
+}
+.medium-table td {
+    padding: 1px 5px 1px 5px;
+    font-size: 12pt;
+    border: 0;
+}
+.fill-in-box-label {
+    display: table-cell;
+    font-weight: bold;
+    font-size: 12pt;
+    height: 20px;
+    padding: 10px;
+    vertical-align: middle;
+}
+.fill-in-box {
+    background-color: aliceblue;
+    border: 2px dashed lightgray;
+    display: table-cell;
+    vertical-align: middle;
+    width: 20em;
+    height: 20px;
+    padding: 10px;
+}
+
+.small-table.borderless {
+    border:0;
+}
+.small-table.borderless td {
+    border:0;
+}
+strong { font-weight: bold !important; }
+
+/* IC CARE THEME */
+.iccare .notice,
+.iccare th {
+    background-color: #caf5d5;
+    text-shadow: 1px 1px 1px white;
+}
+.iccare .company-address {
+    color: green;
+}
+.iccare .fill-in-box {
+    border: 1px solid #ccf1d6;
+    background-color: #caf5d5;
+}
