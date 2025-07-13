@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="60146b57-2082-4f34-8660-5bbe28929541" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://irv-sapl-axsbx:8101/DynamicsAx/Services/ACC_ExternalStagingQueryServiceGroup" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ACC_ExternalStagingQueryServiceGroup.xsd" MetadataType="Schema" ID="9d950c29-82e4-48a9-9228-73cf8571332d" SourceId="1" SourceUrl="http://irv-sapl-axsbx:8101/DynamicsAx/Services/ACC_ExternalStagingQueryServiceGroup?xsd=xsd11" />
+    <MetadataFile FileName="ACC_ExternalStagingQueryServiceGroup1.xsd" MetadataType="Schema" ID="650e6998-9d23-4273-8e1f-7c6c01ab3a94" SourceId="1" SourceUrl="http://irv-sapl-axsbx:8101/DynamicsAx/Services/ACC_ExternalStagingQueryServiceGroup?xsd=xsd12" />
+    <MetadataFile FileName="ACC_ExternalStagingQueryServiceGroup2.xsd" MetadataType="Schema" ID="7bb6577a-1700-4204-a222-6f542d982575" SourceId="1" SourceUrl="http://irv-sapl-axsbx:8101/DynamicsAx/Services/ACC_ExternalStagingQueryServiceGroup?xsd=xsd13" />
+    <MetadataFile FileName="ACC_ExternalStagingQueryServiceGroup3.xsd" MetadataType="Schema" ID="7b6f5e70-e597-4d21-8751-f66dc355b9c4" SourceId="1" SourceUrl="http://irv-sapl-axsbx:8101/DynamicsAx/Services/ACC_ExternalStagingQueryServiceGroup?xsd=xsd14" />
+    <MetadataFile FileName="ACC_ExternalStagingQueryServiceGroup4.xsd" MetadataType="Schema" ID="8b821b2a-0486-4718-b867-01dcff3ec0cc" SourceId="1" SourceUrl="http://irv-sapl-axsbx:8101/DynamicsAx/Services/ACC_ExternalStagingQueryServiceGroup?xsd=xsd6" />
+    <MetadataFile FileName="ACC_ExternalStagingQueryServiceGroup.wsdl" MetadataType="Wsdl" ID="4479835a-c800-4b96-96ea-120184d29390" SourceId="1" SourceUrl="http://irv-sapl-axsbx:8101/DynamicsAx/Services/ACC_ExternalStagingQueryServiceGroup" />
+    <MetadataFile FileName="ACC_ExternalStagingQueryServiceGroup5.xsd" MetadataType="Schema" ID="0523070c-70a2-43fc-985c-1bfa05c47387" SourceId="1" SourceUrl="http://irv-sapl-axsbx:8101/DynamicsAx/Services/ACC_ExternalStagingQueryServiceGroup?xsd=xsd2" />
+    <MetadataFile FileName="ACC_ExternalStagingQueryServiceGroup6.xsd" MetadataType="Schema" ID="850538e1-546d-48d1-9029-84fde98f1d01" SourceId="1" SourceUrl="http://irv-sapl-axsbx:8101/DynamicsAx/Services/ACC_ExternalStagingQueryServiceGroup?xsd=xsd0" />
+    <MetadataFile FileName="ACC_ExternalStagingQueryServiceGroup7.xsd" MetadataType="Schema" ID="ad5214c3-db8b-4fd9-91d4-5567eeaf74dc" SourceId="1" SourceUrl="http://irv-sapl-axsbx:8101/DynamicsAx/Services/ACC_ExternalStagingQueryServiceGroup?xsd=xsd4" />
+    <MetadataFile FileName="ACC_ExternalStagingQueryServiceGroup8.xsd" MetadataType="Schema" ID="9d8c2432-cfeb-4871-8146-34cf1cf5cc7b" SourceId="1" SourceUrl="http://irv-sapl-axsbx:8101/DynamicsAx/Services/ACC_ExternalStagingQueryServiceGroup?xsd=xsd7" />
+    <MetadataFile FileName="ACC_ExternalStagingQueryServiceGroup1.wsdl" MetadataType="Wsdl" ID="1a40e2bb-a322-4119-bd5c-92d168cd9b5f" SourceId="1" SourceUrl="http://irv-sapl-axsbx:8101/DynamicsAx/Services/ACC_ExternalStagingQueryServiceGroup?wsdl=wsdl0" />
+    <MetadataFile FileName="ACC_ExternalStagingQueryServiceGroup9.xsd" MetadataType="Schema" ID="3162518a-c249-4354-ae2f-b1e8961b1028" SourceId="1" SourceUrl="http://irv-sapl-axsbx:8101/DynamicsAx/Services/ACC_ExternalStagingQueryServiceGroup?xsd=xsd5" />
+    <MetadataFile FileName="ACC_ExternalStagingQueryServiceGroup10.xsd" MetadataType="Schema" ID="51756233-b54c-4103-bdcc-2bf044bd431d" SourceId="1" SourceUrl="http://irv-sapl-axsbx:8101/DynamicsAx/Services/ACC_ExternalStagingQueryServiceGroup?xsd=xsd3" />
+    <MetadataFile FileName="ACC_ExternalStagingQueryServiceGroup11.xsd" MetadataType="Schema" ID="a19a06cd-3331-490a-ad9d-31bdd95fe366" SourceId="1" SourceUrl="http://irv-sapl-axsbx:8101/DynamicsAx/Services/ACC_ExternalStagingQueryServiceGroup?xsd=xsd1" />
+    <MetadataFile FileName="ACC_ExternalStagingQueryServiceGroup12.xsd" MetadataType="Schema" ID="904116f0-e510-4932-a02a-e85ae966db45" SourceId="1" SourceUrl="http://irv-sapl-axsbx:8101/DynamicsAx/Services/ACC_ExternalStagingQueryServiceGroup?xsd=xsd15" />
+    <MetadataFile FileName="ACC_ExternalStagingQueryServiceGroup13.xsd" MetadataType="Schema" ID="5d4cf23d-5f97-45c3-ac67-c3e58acfcd82" SourceId="1" SourceUrl="http://irv-sapl-axsbx:8101/DynamicsAx/Services/ACC_ExternalStagingQueryServiceGroup?xsd=xsd10" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
